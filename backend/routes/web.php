@@ -63,7 +63,7 @@ Route::get('/', function () {
             });
     }
 
-    $generatedElenaImages = collect(File::glob($root . '/images/generated/dataset/elena_voss/*/*.png'))
+    $generatedElenaImages = collect(File::glob($root . '/output/images/dataset/elena_voss/*/*.png'))
         ->sortByDesc(fn ($path) => File::lastModified($path))
         ->map(function ($path) {
             return [
@@ -89,7 +89,7 @@ Route::get('/', function () {
 
     $images = $generatedElenaImages->concat($loraDatasetImages)->take(18)->values();
 
-    $videos = collect(File::glob($root . '/videos/generated/elena_voss*.mp4'))
+    $videos = collect(File::glob($root . '/output/videos/elena_voss*.mp4'))
         ->sortByDesc(fn ($path) => File::lastModified($path))
         ->map(function ($path) {
             return [
@@ -182,7 +182,7 @@ Route::get('/media/images/{category}/{filename}', function (string $category, st
     abort_unless(preg_match('/^[a-z_]+$/', $category), 404);
     abort_unless(preg_match('/^[a-zA-Z0-9_.-]+$/', $filename), 404);
 
-    $path = base_path("../images/generated/dataset/elena_voss/{$category}/{$filename}");
+    $path = base_path("../output/images/dataset/elena_voss/{$category}/{$filename}");
     abort_unless(File::exists($path), 404);
 
     return response()->file($path);
@@ -200,7 +200,7 @@ Route::get('/media/lora/{filename}', function (string $filename) {
 Route::get('/media/videos/{filename}', function (string $filename) {
     abort_unless(preg_match('/^[a-zA-Z0-9_.-]+$/', $filename), 404);
 
-    $path = base_path("../videos/generated/{$filename}");
+    $path = base_path("../output/videos/{$filename}");
     abort_unless(File::exists($path), 404);
 
     return response()->file($path);

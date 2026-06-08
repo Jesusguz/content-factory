@@ -45,3 +45,7 @@ scripts/*.zip
 Thumbs.db
 .idea/
 .vscode/
+output/images/*
+output/videos/*
+!output/images/.gitkeep
+!output/videos/.gitkeep
