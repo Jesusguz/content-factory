@@ -166,51 +166,70 @@ def ensure_lora(base_url, lora):
 
 
 def build_workflow(args, positive, negative, seed, filename_prefix):
+    model_ref = ["4", 0]
+    clip_ref = ["4", 1]
     workflow = {
         "4": {
             "class_type": "CheckpointLoaderSimple",
             "inputs": {"ckpt_name": args.checkpoint},
         },
-        "5": {
-            "class_type": "EmptyLatentImage",
-            "inputs": {
-                "width": args.width,
-                "height": args.height,
-                "batch_size": 1,
-            },
-        },
-        "6": {
-            "class_type": "CLIPTextEncode",
-            "inputs": {"clip": ["4", 1], "text": positive},
-        },
-        "7": {
-            "class_type": "CLIPTextEncode",
-            "inputs": {"clip": ["4", 1], "text": negative},
-        },
-        "3": {
-            "class_type": "KSampler",
+    }
+    if args.lora:
+        workflow["10"] = {
+            "class_type": "LoraLoader",
             "inputs": {
                 "model": ["4", 0],
-                "positive": ["6", 0],
-                "negative": ["7", 0],
-                "latent_image": ["5", 0],
-                "seed": seed,
-                "steps": args.steps,
-                "cfg": args.cfg,
-                "sampler_name": args.sampler,
-                "scheduler": args.scheduler,
-                "denoise": 1.0,
+                "clip": ["4", 1],
+                "lora_name": args.lora,
+                "strength_model": args.lora_strength_model,
+                "strength_clip": args.lora_strength_clip,
             },
-        },
-        "8": {
-            "class_type": "VAEDecode",
-            "inputs": {"samples": ["3", 0], "vae": ["4", 2]},
-        },
-        "9": {
-            "class_type": "SaveImage",
-            "inputs": {"filename_prefix": filename_prefix, "images": ["8", 0]},
-        },
-    }
+        }
+        model_ref = ["10", 0]
+        clip_ref = ["10", 1]
+    workflow.update(
+        {
+            "5": {
+                "class_type": "EmptyLatentImage",
+                "inputs": {
+                    "width": args.width,
+                    "height": args.height,
+                    "batch_size": 1,
+                },
+            },
+            "6": {
+                "class_type": "CLIPTextEncode",
+                "inputs": {"clip": clip_ref, "text": positive},
+            },
+            "7": {
+                "class_type": "CLIPTextEncode",
+                "inputs": {"clip": clip_ref, "text": negative},
+            },
+            "3": {
+                "class_type": "KSampler",
+                "inputs": {
+                    "model": model_ref,
+                    "positive": ["6", 0],
+                    "negative": ["7", 0],
+                    "latent_image": ["5", 0],
+                    "seed": seed,
+                    "steps": args.steps,
+                    "cfg": args.cfg,
+                    "sampler_name": args.sampler,
+                    "scheduler": args.scheduler,
+                    "denoise": 1.0,
+                },
+            },
+            "8": {
+                "class_type": "VAEDecode",
+                "inputs": {"samples": ["3", 0], "vae": ["4", 2]},
+            },
+            "9": {
+                "class_type": "SaveImage",
+                "inputs": {"filename_prefix": filename_prefix, "images": ["8", 0]},
+            },
+        }
+    )
     return workflow
 
 
@@ -361,7 +380,7 @@ def parse_args():
     parser.add_argument("--negative-prompt", default="prompts/valentina-sol-image-negative.txt")
     parser.add_argument("--metadata-json", default="docs/dataset-valentina-sol.json")
     parser.add_argument("--metadata-csv", default="docs/dataset-valentina-sol.csv")
-    parser.add_argument("--output-relative-root", default="output/images")
+    parser.add_argument("--output-relative-root", default="images/generated")
     parser.add_argument("--timeout-seconds", type=int, default=1800)
     return parser.parse_args()
 
@@ -398,7 +417,7 @@ def main():
         seed = args.fixed_seed if args.fixed_seed is not None else args.seed_base + (list(CATEGORIES.keys()).index(category) * 1000) + index
         filename_prefix = f"dataset/{args.character_slug}/{category}/{image_id}"
         positive = (
-            f"(face of Ana de Armas:0.6) blended with (face of Barbara Palvin:0.4), symmetrical facial features, highly detailed portrait, {positive_base}, {variant}, single person, same identity, "
+            f"{positive_base}, {variant}, single person, same identity, "
             "consistent facial features, realistic hands when visible, no text, no watermark"
         )
         workflow = build_workflow(args, positive, negative, seed, filename_prefix)

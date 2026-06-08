@@ -30,7 +30,17 @@ function Get-ChildProcessIds {
     }
 }
 
-
+if (-not (Test-Path $LoraFile)) {
+    Write-Result @{
+        status = "blocked_missing_lora"
+        approved = $false
+        generated_images = 0
+        no_generation = $true
+        reason = "models/loras/elena_voss_v1.safetensors does not exist"
+        next_required_action = "train_elena_voss_lora"
+    }
+    exit 0
+}
 
 if (-not (Test-Path $ComfyPython)) {
     throw "ComfyUI Python not found: $ComfyPython"
@@ -68,6 +78,10 @@ try {
     & $ComfyPython $Generator `
         --character-name "Elena Voss" `
         --character-slug "elena_voss" `
+        --require-lora `
+        --lora "elena_voss_v1.safetensors" `
+        --lora-strength-model 1.05 `
+        --lora-strength-clip 0.85 `
         --count-per-category 1 `
         --limit-total 5 `
         --steps 18 `

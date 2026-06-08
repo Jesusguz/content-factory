@@ -402,7 +402,7 @@ def main():
     args = parse_args()
     identity_bible = load_json(ROOT / args.identity_bible)
     lora_path = ROOT / args.lora_path
-    lora_present = True
+    lora_present = lora_path.exists()
     reference_rows = resolve_image_rows(ROOT / args.reference_metadata)
     target_rows = resolve_image_rows(ROOT / args.target_metadata)
     if len(reference_rows) < args.min_reference_faces:
@@ -477,7 +477,7 @@ def main():
                 and style_score >= QUALITY_TARGETS["style"]
                 and narrative >= QUALITY_TARGETS["narrative"]
                 and global_score >= QUALITY_TARGETS["global"]
-
+                and lora_present
             )
             item_results.append(
                 {
@@ -509,7 +509,8 @@ def main():
     isi = weighted_isi(face_batch, body_batch, narrative_batch)
 
     rejection_reasons = []
-
+    if not lora_present:
+        rejection_reasons.append("missing_lora:models/loras/elena_voss_v1.safetensors")
     if face_batch < QUALITY_TARGETS["face"]:
         rejection_reasons.append("face_consistency_below_90")
     if body_batch < QUALITY_TARGETS["body"]:
@@ -523,7 +524,7 @@ def main():
     if isi < QUALITY_TARGETS["isi"]:
         rejection_reasons.append("isi_below_90")
 
-    gate_status = "approved" if not rejection_reasons else "rejected"
+    gate_status = "approved" if not rejection_reasons else ("blocked" if not lora_present else "rejected")
     approved = gate_status == "approved"
     result = {
         "batch_id": str(uuid.uuid4()),

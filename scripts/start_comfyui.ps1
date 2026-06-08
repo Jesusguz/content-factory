@@ -3,7 +3,7 @@ $ErrorActionPreference = "Stop"
 $Root = Split-Path -Parent $PSScriptRoot
 $Python = Join-Path $Root "comfyui\.venv\Scripts\python.exe"
 $ComfyMain = Join-Path $Root "comfyui\ComfyUI\main.py"
-$OutputDir = Join-Path $Root "output\images"
+$OutputDir = Join-Path $Root "images\generated"
 
 if (-not (Test-Path $Python)) {
     throw "ComfyUI venv Python not found: $Python"

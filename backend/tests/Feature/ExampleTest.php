@@ -5,18 +5,8 @@ namespace Tests\Feature;
 // use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
 
-use Illuminate\Foundation\Testing\RefreshDatabase;
 class ExampleTest extends TestCase
 {
-    use RefreshDatabase;
-
-    protected function setUp(): void
-    {
-        parent::setUp();
-        $sql = file_get_contents(base_path('../database/schema_sqlite.sql'));
-        \Illuminate\Support\Facades\DB::unprepared($sql);
-    }
-
     /**
      * A basic test example.
      */
