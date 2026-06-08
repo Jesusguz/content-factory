@@ -6,7 +6,7 @@
     "identity_locked": true,
     "production_gate": "ISI >= 90",
     "no_mass_production_until": "100 consecutive approved images with ISI >= 90",
-    "required_lora": "models/loras/elena_voss_v1.safetensors",
+    "required_lora": "",
     "blocking_rule": "If ISI < 90, do not publish, do not approve, do not include in calendar, regenerate batch."
   },
   "identity": {
