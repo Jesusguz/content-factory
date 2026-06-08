@@ -1,0 +1,52 @@
+{
+  "name": "Valentina Sol - Generar imagenes",
+  "active": false,
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "5e13640d-744e-4c31-98d8-bf3d216dd2f5",
+      "name": "Manual Trigger",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [0, 0]
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "30 8 * * *"
+            }
+          ]
+        }
+      },
+      "id": "2fc03ead-e210-4af7-b9c4-6b4ff933c0e8",
+      "name": "Daily 08:30",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [0, 180]
+    },
+    {
+      "parameters": {
+        "command": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\magdi\\Documents\\Codex\\2026-05-31\\goal-construir-una-f-brica-de\\content-factory\\scripts\\n8n_generate_images.ps1\""
+      },
+      "id": "af1f3c8a-25f0-4f42-92b4-c9f9415aa038",
+      "name": "Run Image Generator",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [320, 90]
+    }
+  ],
+  "connections": {
+    "Manual Trigger": {
+      "main": [[{"node": "Run Image Generator", "type": "main", "index": 0}]]
+    },
+    "Daily 08:30": {
+      "main": [[{"node": "Run Image Generator", "type": "main", "index": 0}]]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  }
+}

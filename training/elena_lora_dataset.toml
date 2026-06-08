@@ -1,0 +1,17 @@
+[general]
+shuffle_caption = false
+caption_extension = ".txt"
+keep_tokens = 1
+
+[[datasets]]
+resolution = [512, 768]
+batch_size = 1
+enable_bucket = true
+min_bucket_reso = 384
+max_bucket_reso = 1024
+bucket_reso_steps = 64
+
+  [[datasets.subsets]]
+  image_dir = "C:\\Users\\magdi\\Documents\\Codex\\2026-05-31\\goal-construir-una-f-brica-de\\content-factory\\dataset_lora\\images"
+  num_repeats = 12
+  class_tokens = "elena_voss woman"

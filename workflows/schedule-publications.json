@@ -1,0 +1,52 @@
+{
+  "name": "Valentina Sol - Programar publicaciones",
+  "active": false,
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "ce547b14-6e5f-4cdf-b0cd-98b3eb26fadc",
+      "name": "Manual Trigger",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [0, 0]
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "30 9 * * *"
+            }
+          ]
+        }
+      },
+      "id": "e95a91cc-e273-4bc6-9c70-26265094ef44",
+      "name": "Daily 09:30",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [0, 180]
+    },
+    {
+      "parameters": {
+        "command": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\magdi\\Documents\\Codex\\2026-05-31\\goal-construir-una-f-brica-de\\content-factory\\scripts\\n8n_schedule_publication.ps1\""
+      },
+      "id": "bedc1b52-e359-4381-b65b-2dcdabf3e50b",
+      "name": "Insert Publication Queue",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [320, 90]
+    }
+  ],
+  "connections": {
+    "Manual Trigger": {
+      "main": [[{"node": "Insert Publication Queue", "type": "main", "index": 0}]]
+    },
+    "Daily 09:30": {
+      "main": [[{"node": "Insert Publication Queue", "type": "main", "index": 0}]]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  }
+}

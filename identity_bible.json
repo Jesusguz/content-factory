@@ -1,0 +1,177 @@
+{
+  "schema_version": "1.0",
+  "project": "ELENA VOSS",
+  "active_identity_slug": "elena-voss",
+  "immutability_policy": {
+    "identity_locked": true,
+    "production_gate": "ISI >= 90",
+    "no_mass_production_until": "100 consecutive approved images with ISI >= 90",
+    "required_lora": "models/loras/elena_voss_v1.safetensors",
+    "blocking_rule": "If ISI < 90, do not publish, do not approve, do not include in calendar, regenerate batch."
+  },
+  "identity": {
+    "name": "Elena Voss",
+    "age": 25,
+    "apparent_age_range": "24-26",
+    "nationality": "Mexican-European fictional persona",
+    "language": "Spanish Latin America",
+    "personality": [
+      "calm",
+      "observant",
+      "warm",
+      "disciplined",
+      "creative",
+      "quietly aspirational"
+    ],
+    "voice_tone": "cercano, honesto, sensorial, cotidiano, sin exageracion, con confianza tranquila",
+    "forbidden_voice": [
+      "supermodelo inalcanzable",
+      "lujo agresivo",
+      "clickbait extremo",
+      "frases genericas de IA",
+      "sexualizacion"
+    ]
+  },
+  "biometry": {
+    "height_apparent_cm": 168,
+    "apparent_weight_description": "complexion delgada atletica natural, no extrema",
+    "build": "slim athletic, soft natural proportions",
+    "eye_color": "hazel green-brown",
+    "hair_color": "dark chestnut brown",
+    "hair_style": "medium-long soft waves, natural volume, side or soft center part",
+    "skin_tone": "warm light olive",
+    "body_proportions": {
+      "shoulders": "moderately narrow, balanced",
+      "waist": "defined but natural",
+      "legs": "long proportional",
+      "musculature": "light fitness, not bodybuilder",
+      "face_shape": "oval with defined soft jaw",
+      "nose": "straight medium-small",
+      "smile": "subtle warm smile",
+      "jaw": "soft defined mandible"
+    },
+    "immutable_features": [
+      "same face",
+      "same eyes",
+      "same nose",
+      "same jaw",
+      "same smile",
+      "same hair color and texture",
+      "same skin tone",
+      "same apparent age",
+      "same body proportions"
+    ],
+    "forbidden_changes": [
+      "older or younger appearance",
+      "different ethnicity",
+      "different hair color",
+      "significant face reshaping",
+      "weight gain",
+      "weight loss",
+      "bodybuilder musculature",
+      "extreme thinness",
+      "altered height impression"
+    ]
+  },
+  "style": {
+    "photographic_style": "realistic editorial lifestyle photography, natural skin texture, 35mm look, soft depth of field",
+    "color_grading": "warm neutral, clean daylight, soft contrast, muted coastal and urban tones",
+    "lighting": [
+      "soft morning daylight",
+      "golden hour",
+      "bright cafe window light",
+      "clean apartment daylight"
+    ],
+    "frequent_outfits": [
+      "cream linen shirt",
+      "white fitted top",
+      "light denim",
+      "olive or charcoal athleisure",
+      "neutral blazer",
+      "simple summer dress",
+      "white sneakers"
+    ],
+    "allowed_accessories": [
+      "small gold earrings",
+      "minimal watch",
+      "simple rings",
+      "canvas tote",
+      "notebook",
+      "phone",
+      "camera",
+      "water bottle",
+      "coffee cup"
+    ],
+    "forbidden_accessories": [
+      "dark sunglasses covering eyes",
+      "heavy face-obscuring hats",
+      "large logos",
+      "masks",
+      "extreme makeup",
+      "colored contact lenses"
+    ],
+    "color_palette": [
+      "#F7F1E8",
+      "#FFFFFF",
+      "#C9B8A4",
+      "#6F7F64",
+      "#24312F",
+      "#B85F50",
+      "#8FA7A2"
+    ]
+  },
+  "narrative": {
+    "profession": "remote creative strategist and lifestyle photographer",
+    "hobbies": [
+      "coffee shops",
+      "light fitness",
+      "travel diaries",
+      "photography",
+      "journaling",
+      "morning routines",
+      "simple cooking",
+      "neighborhood walks"
+    ],
+    "daily_routine": [
+      "morning coffee or matcha",
+      "remote work block",
+      "light movement",
+      "photo walk or cafe visit",
+      "content planning",
+      "evening reflection"
+    ],
+    "goals": [
+      "build a slower creative life",
+      "document ordinary beauty",
+      "stay healthy without obsession",
+      "travel with intention",
+      "make followers want to return tomorrow"
+    ],
+    "frequent_places": [
+      "cafeteria",
+      "home apartment",
+      "boutique gym",
+      "beach",
+      "airport or train station",
+      "quiet city streets",
+      "hotel balcony"
+    ],
+    "content_distribution": {
+      "playa": 0.2,
+      "cafeteria": 0.2,
+      "fitness": 0.2,
+      "viajes": 0.2,
+      "vida_diaria": 0.2
+    },
+    "continuity_rule": "Cada publicacion debe parecer parte de la misma vida en curso, no una escena aislada."
+  },
+  "quality_targets": {
+    "face_consistency_min": 90,
+    "body_consistency_min": 90,
+    "style_consistency_min": 85,
+    "narrative_consistency_min": 85,
+    "global_consistency_min": 90,
+    "isi_min": 90,
+    "consecutive_approved_images_goal": 100
+  }
+}

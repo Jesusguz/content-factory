@@ -1,0 +1,16 @@
+{
+  "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+  "rows_prepared": 80,
+  "actual_counts": {
+    "tiktok_idea": 20,
+    "caption": 20,
+    "hook": 20,
+    "story": 20
+  },
+  "batch_json": "docs/content-batch-valentina-sol.json",
+  "sql_file": "database/generated-content-valentina-sol.sql",
+  "inserted_to_postgres": true,
+  "psql_stdout": "CREATE EXTENSION\nCREATE TABLE\nCREATE TABLE\nCREATE TABLE\nCREATE INDEX\nCREATE INDEX\nCREATE INDEX\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\n",
+  "psql_stderr": "psql:database/schema.sql:1: NOTICE:  extension \"pgcrypto\" already exists, skipping\npsql:database/schema.sql:10: NOTICE:  relation \"characters\" already exists, skipping\npsql:database/schema.sql:21: NOTICE:  relation \"content_generation_runs\" already exists, skipping\npsql:database/schema.sql:40: NOTICE:  relation \"content_items\" already exists, skipping\npsql:database/schema.sql:43: NOTICE:  relation \"idx_content_items_character_type\" already exists, skipping\npsql:database/schema.sql:46: NOTICE:  relation \"idx_content_items_category\" already exists, skipping\npsql:database/schema.sql:49: NOTICE:  relation \"idx_content_items_created_at\" already exists, skipping\n",
+  "finished_at": "2026-05-31T23:29:26.530945+00:00"
+}

@@ -1,0 +1,54 @@
+{
+  "comfyui_version": "0.22.0",
+  "comfyui_commit": "c37d2a0d",
+  "python_version": "3.11.9",
+  "pytorch_version": "2.11.0+cu128",
+  "torch_cuda": "12.8",
+  "cuda_available": true,
+  "device": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "mode": "LOW_VRAM",
+  "dynamic_vram": true,
+  "checkpoint_count": 2,
+  "checkpoints": [
+    {
+      "name": "realvisxlV50_v50Bakedvae.safetensors",
+      "source": "https://civitai.com/api/download/models/789646",
+      "model": "RealVisXL V5.0",
+      "version": "V5.0 (BakedVAE)",
+      "base_model": "SDXL 1.0",
+      "bytes": 6938065488,
+      "gib": 6.462,
+      "sha256": "6A35A7855770AE9820A3C931D4964C3817B6D9E3C6F9C4DABB5B3A94E5643B80",
+      "pickle_scan": "Success",
+      "virus_scan": "Success"
+    },
+    {
+      "name": "juggernautXL_ragnarokBy.safetensors",
+      "source": "https://civitai.com/api/download/models/1759168",
+      "model": "Juggernaut XL",
+      "version": "Ragnarok_by_RunDiffusion",
+      "base_model": "SDXL 1.0",
+      "bytes": 7105350162,
+      "gib": 6.617,
+      "sha256": "DD08FA32F98D05A2443CA1419E46DF1575A0811F6E3B246D9DD47FF20F5EB66A",
+      "pickle_scan": "Success",
+      "virus_scan": "Success"
+    }
+  ],
+  "smoke_generation": {
+    "checkpoint": "realvisxlV50_v50Bakedvae.safetensors",
+    "prompt_id": "77d7f87d-7c73-454a-8d4d-792943f53991",
+    "elapsed_seconds": 16.066,
+    "prompt_executed_seconds": 15.01,
+    "output": "images/generated/comfyui_sdxl_smoke_00001_.png",
+    "image_size": "512x512",
+    "image_mode": "RGB",
+    "status": "success"
+  },
+  "post_test_gpu": {
+    "vram_used_mb": 0,
+    "vram_free_mb": 5921,
+    "gpu_util_percent": 0
+  },
+  "disk_free_gib_after_phase": 76.64
+}

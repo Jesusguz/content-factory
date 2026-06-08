@@ -1,0 +1,22 @@
+{
+  "approved": false,
+  "rejection_reasons": [
+    "face_consistency_below_90",
+    "body_consistency_below_90",
+    "style_consistency_below_85",
+    "global_consistency_below_90",
+    "isi_below_90"
+  ],
+  "generated_at": "2026-06-08T01:41:48.9616295Z",
+  "scores": {
+    "face": 10.04,
+    "body": 61.65,
+    "style": 84.42,
+    "narrative": 100.0,
+    "global": 50.17,
+    "isi": 46.1
+  },
+  "generated_images": 5,
+  "status": "rejected",
+  "metadata_json": "docs\\daily-elena-images-20260607-194019.json"
+}

@@ -1,0 +1,68 @@
+{
+  "model": "qwen3:8b",
+  "model_id": "500a1f067a9f",
+  "created_at": "2026-05-31T14:06:11-0600",
+  "ollama_models_path": "C:\\Users\\magdi\\Documents\\Codex\\2026-05-31\\goal-construir-una-f-brica-de\\content-factory\\models\\ollama",
+  "download_seconds": 2598.8,
+  "model_disk_bytes": 5225389023,
+  "model_disk_gib": 4.867,
+  "ollama_list_size": "5.2 GB",
+  "model_metadata": {
+    "architecture": "qwen3",
+    "parameters": "8.2B",
+    "context_length": 40960,
+    "embedding_length": 4096,
+    "quantization": "Q4_K_M",
+    "capabilities": ["completion", "tools", "thinking"]
+  },
+  "cases": [
+    {
+      "name": "cold_short_response",
+      "wall_seconds": 7.932,
+      "ollama_total_seconds": 7.025,
+      "ollama_load_seconds": 6.597,
+      "prompt_eval_count": 33,
+      "eval_count": 11,
+      "tokens_per_second": 35.8,
+      "response_chars": 39,
+      "response_preview": "Sistema local listo para Valentina Sol.",
+      "resource_summary": {
+        "ollama_working_set_mb_max": 882.88,
+        "system_ram_used_gb_max": 11.468,
+        "system_ram_free_gb_min": 3.778,
+        "vram_used_mb_max": 5155,
+        "vram_free_mb_min": 767,
+        "gpu_util_percent_max": 95
+      }
+    },
+    {
+      "name": "warm_content_generation",
+      "wall_seconds": 3.929,
+      "ollama_total_seconds": 2.629,
+      "ollama_load_seconds": 0.177,
+      "prompt_eval_count": 54,
+      "eval_count": 85,
+      "tokens_per_second": 35.56,
+      "response_chars": 298,
+      "response_preview": "1. Valentina Sol muestra su rutina matutina con IA en la cocina.  2. Valentina Sol prueba un nuevo look con IA en la calle.  3. Valentina Sol ensena a usar IA para organizar el dia.  4. Valentina Sol comparte consejos de IA para el bienestar.  5. Valentina Sol vive un dia con IA en la oficina.",
+      "resource_summary": {
+        "ollama_working_set_mb_max": 938.72,
+        "system_ram_used_gb_max": 11.387,
+        "system_ram_free_gb_min": 3.858,
+        "vram_used_mb_max": 5155,
+        "vram_free_mb_min": 767,
+        "gpu_util_percent_max": 96
+      }
+    }
+  ],
+  "post_benchmark": {
+    "disk_free_gib": 89.49,
+    "gpu_state": {
+      "name": "NVIDIA GeForce RTX 4050 Laptop GPU",
+      "vram_total_mb": 6141,
+      "vram_used_mb": 5155,
+      "vram_free_mb": 767,
+      "gpu_util_percent": 0
+    }
+  }
+}

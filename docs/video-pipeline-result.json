@@ -1,0 +1,80 @@
+{
+  "status": "ok",
+  "created_at": "2026-06-01T01:24:51.179086+00:00",
+  "category": "lifestyle",
+  "image_count": 6,
+  "seconds_per_image": 2.5,
+  "total_duration_target": 15.0,
+  "output": "videos/generated/valentina_sol_lifestyle_short.mp4",
+  "srt": "videos/generated/valentina_sol_lifestyle_short.srt",
+  "concat": "videos/generated/valentina_sol_lifestyle_concat.txt",
+  "selected_images": [
+    "images/generated/dataset/valentina_sol/lifestyle/valentina_sol_lifestyle_001_00001_.png",
+    "images/generated/dataset/valentina_sol/lifestyle/valentina_sol_lifestyle_005_00001_.png",
+    "images/generated/dataset/valentina_sol/lifestyle/valentina_sol_lifestyle_009_00001_.png",
+    "images/generated/dataset/valentina_sol/lifestyle/valentina_sol_lifestyle_012_00001_.png",
+    "images/generated/dataset/valentina_sol/lifestyle/valentina_sol_lifestyle_016_00001_.png",
+    "images/generated/dataset/valentina_sol/lifestyle/valentina_sol_lifestyle_020_00001_.png"
+  ],
+  "subtitles": [
+    {
+      "start": 0.0,
+      "end": 2.95,
+      "text": "La vida que me gustar\u00eda\nvivir"
+    },
+    {
+      "start": 3.0,
+      "end": 5.95,
+      "text": "Hoy me enfoc\u00e9 en lo que\nrealmente importa:..."
+    },
+    {
+      "start": 6.0,
+      "end": 8.95,
+      "text": "La vida no es sobre ser\nperfecto, sino sobre..."
+    },
+    {
+      "start": 9.0,
+      "end": 11.95,
+      "text": "Un momento simple tambien\npuede sentirse como una..."
+    },
+    {
+      "start": 12.0,
+      "end": 14.95,
+      "text": "Un momento simple tambien\npuede sentirse como una..."
+    }
+  ],
+  "ffmpeg_path": "C:\\Users\\magdi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-full_build\\bin\\ffmpeg.exe",
+  "ffprobe_path": "C:\\Users\\magdi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-full_build\\bin\\ffprobe.exe",
+  "ffmpeg_returncode": 0,
+  "ffmpeg_stderr_tail": " http://www.videolan.org/x264.html - options: cabac=1 ref=1 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=2 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=18 lookahead_threads=6 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=1 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=10 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00\nOutput #0, mp4, to 'C:\\Users\\magdi\\Documents\\Codex\\2026-05-31\\goal-construir-una-f-brica-de\\content-factory\\videos\\generated\\valentina_sol_lifestyle_short.mp4':\n  Metadata:\n    encoder         : Lavf62.12.101\n  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, progressive), 1080x1920, q=2-31, 30 fps, 15360 tbn\n    Metadata:\n      encoder         : Lavc62.28.101 libx264\n    Side data:\n      CPB properties: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A\nframe=   73 fps=0.0 q=29.0 size=       0KiB time=00:00:02.36 bitrate=   0.2kbits/s dup=148 drop=0 speed=4.63x elapsed=0:00:00.51    \nframe=  225 fps=220 q=29.0 size=     256KiB time=00:00:07.43 bitrate= 282.2kbits/s dup=296 drop=0 speed=7.27x elapsed=0:00:01.02    \nframe=  379 fps=244 q=29.0 size=     768KiB time=00:00:12.56 bitrate= 500.7kbits/s dup=445 drop=0 speed=8.11x elapsed=0:00:01.55    \n[mp4 @ 00000214f5486480] Starting second pass: moving the moov atom to the beginning of the file\n[out#0/mp4 @ 00000214f32f33c0] video:815KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.749659%\nframe=  450 fps=262 q=-1.0 Lsize=     821KiB time=00:00:14.93 bitrate= 450.3kbits/s dup=445 drop=0 speed=8.68x elapsed=0:00:01.71    \n[libx264 @ 00000214f5487500] frame I:4     Avg QP:16.48  size:140149\n[libx264 @ 00000214f5487500] frame P:113   Avg QP:17.33  size:  2150\n[libx264 @ 00000214f5487500] frame B:333   Avg QP:22.45  size:    91\n[libx264 @ 00000214f5487500] consecutive B-frames:  1.1%  0.4%  0.7% 97.8%\n[libx264 @ 00000214f5487500] mb I  I16..4: 10.1% 63.4% 26.5%\n[libx264 @ 00000214f5487500] mb P  I16..4:  0.3%  1.4%  0.2%  P16..4:  1.9%  0.0%  0.0%  0.0%  0.0%    skip:96.2%\n[libx264 @ 00000214f5487500] mb B  I16..4:  0.0%  0.0%  0.0%  B16..8:  0.0%  0.0%  0.0%  direct: 0.2%  skip:99.8%  L0:39.5% L1:60.5% BI: 0.0%\n[libx264 @ 00000214f5487500] 8x8 transform intra:67.3% inter:35.5%\n[libx264 @ 00000214f5487500] coded y,uvDC,uvAC intra: 92.8% 63.8% 13.0% inter: 0.0% 0.6% 0.0%\n[libx264 @ 00000214f5487500] i16 v,h,dc,p: 29% 25% 20% 26%\n[libx264 @ 00000214f5487500] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 27% 30% 16%  5%  4%  4%  3%  6%  5%\n[libx264 @ 00000214f5487500] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 18% 25% 11%  8%  9%  6%  8%  7%  8%\n[libx264 @ 00000214f5487500] i8c dc,h,v,p: 46% 20% 24% 10%\n[libx264 @ 00000214f5487500] Weighted P-Frames: Y:0.0% UV:0.0%\n[libx264 @ 00000214f5487500] kb/s:444.63\n",
+  "ffprobe": {
+    "returncode": 0,
+    "stdout": "{\n    \"programs\": [\n\n    ],\n    \"stream_groups\": [\n\n    ],\n    \"streams\": [\n        {\n            \"codec_name\": \"h264\",\n            \"width\": 1080,\n            \"height\": 1920,\n            \"r_frame_rate\": \"30/1\",\n            \"duration\": \"15.000000\"\n        }\n    ]\n}\n",
+    "stderr": "",
+    "command": [
+      "C:\\Users\\magdi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-full_build\\bin\\ffprobe.exe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_entries",
+      "stream=codec_name,width,height,r_frame_rate,duration",
+      "-of",
+      "json",
+      "C:\\Users\\magdi\\Documents\\Codex\\2026-05-31\\goal-construir-una-f-brica-de\\content-factory\\videos\\generated\\valentina_sol_lifestyle_short.mp4"
+    ],
+    "parsed": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "duration": "15.000000"
+        }
+      ]
+    }
+  }
+}

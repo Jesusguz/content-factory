@@ -1,0 +1,6 @@
+content_factory:
+  base_path: C:/Users/magdi/Documents/Codex/2026-05-31/goal-construir-una-f-brica-de/content-factory/models
+  checkpoints: checkpoints
+  loras: loras
+  vae: vae
+  controlnet: controlnet

@@ -1,0 +1,52 @@
+{
+  "name": "Valentina Sol - Crear videos",
+  "active": false,
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "c27de288-014e-44f7-ae2b-beb2cd8d255c",
+      "name": "Manual Trigger",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [0, 0]
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 9 * * *"
+            }
+          ]
+        }
+      },
+      "id": "e4504e80-d786-48ce-8cf8-3047a1639335",
+      "name": "Daily 09:00",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [0, 180]
+    },
+    {
+      "parameters": {
+        "command": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\magdi\\Documents\\Codex\\2026-05-31\\goal-construir-una-f-brica-de\\content-factory\\scripts\\n8n_create_video.ps1\""
+      },
+      "id": "025a5096-fb8c-4b8b-b34c-c7f3d8da4729",
+      "name": "Run Video Pipeline",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [320, 90]
+    }
+  ],
+  "connections": {
+    "Manual Trigger": {
+      "main": [[{"node": "Run Video Pipeline", "type": "main", "index": 0}]]
+    },
+    "Daily 09:00": {
+      "main": [[{"node": "Run Video Pipeline", "type": "main", "index": 0}]]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  }
+}

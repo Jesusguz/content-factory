@@ -1,0 +1,23 @@
+{
+  "gate_status": "blocked",
+  "generated_at": "2026-06-08T00:06:27.5273882Z",
+  "scheduled": false,
+  "scores": {
+    "face": 34.21,
+    "body": 9.24,
+    "style": 47.68,
+    "narrative": 100.0,
+    "global": 38.61,
+    "isi": 38.63
+  },
+  "approved": false,
+  "rejection_reasons": [
+    "missing_lora:models/loras/elena_voss_v1.safetensors",
+    "face_consistency_below_90",
+    "body_consistency_below_90",
+    "style_consistency_below_85",
+    "global_consistency_below_90",
+    "isi_below_90"
+  ],
+  "status": "blocked_consistency_gate"
+}

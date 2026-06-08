@@ -1,0 +1,47 @@
+# Local credentials
+*.local
+*.env
+!.env.example
+!*.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node / Laravel / n8n
+node_modules/
+n8n-runtime/
+n8n-user/
+training/sd-scripts/
+training/logs/
+vendor/
+.env.*
+!.env.example
+!database/.env.postgres.example
+!*.example
+
+# Generated media and model artifacts
+dataset_lora/images/
+images/generated/
+videos/generated/
+assets/generated/
+models/checkpoints/
+models/loras/
+models/vae/
+models/controlnet/
+models/ollama/
+comfyui/ComfyUI/
+
+# Logs and temporary installers
+*.log
+scripts/*.exe
+scripts/*.msi
+scripts/*.zip
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

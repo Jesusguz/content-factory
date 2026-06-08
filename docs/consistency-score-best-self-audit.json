@@ -1,0 +1,179 @@
+{
+  "batch_id": "178800d9-85f1-4847-a90a-d5b1b43318be",
+  "created_at": "2026-06-08T01:42:07.277806+00:00",
+  "character_slug": "elena-voss",
+  "batch_name": "elena_daily_best_self_audit",
+  "identity_bible": "identity_bible.json",
+  "source_metadata": "docs\\daily-elena-images-20260607-194019.json",
+  "reference_metadata": "docs\\daily-elena-images-20260607-194019.json",
+  "lora_path": "models/loras/elena_voss_v1.safetensors",
+  "lora_present": true,
+  "scores": {
+    "face": 60.96,
+    "body": 66.59,
+    "style": 87.44,
+    "narrative": 100.0,
+    "global": 72.48,
+    "isi": 70.74
+  },
+  "targets": {
+    "face": 90.0,
+    "body": 90.0,
+    "style": 85.0,
+    "narrative": 85.0,
+    "global": 90.0,
+    "isi": 90.0
+  },
+  "approved": false,
+  "gate_status": "rejected",
+  "rejection_reasons": [
+    "face_consistency_below_90",
+    "body_consistency_below_90",
+    "global_consistency_below_90",
+    "isi_below_90"
+  ],
+  "metrics": {
+    "reference_faces": 5,
+    "reference_bodies": 5,
+    "reference_styles": 5,
+    "target_images": 5,
+    "identity_stability_goal": 100
+  },
+  "items": [
+    {
+      "image_path": "images/generated/dataset/elena_voss/playa/elena_voss_playa_001_00008_.png",
+      "category": "playa",
+      "scores": {
+        "face": 9.29,
+        "body": 58.83,
+        "style": 80.17,
+        "narrative": 100.0,
+        "global": 48.39
+      },
+      "approved": false,
+      "metrics": {
+        "face_detected": true,
+        "face_similarity": 0.58252,
+        "pose_landmarks_visible": 4,
+        "pose_visibility": 0.822,
+        "body_completeness": 0.5,
+        "legs_measured": false,
+        "body_distance": 0.18048,
+        "style_distance": 0.221,
+        "narrative": {
+          "category": "playa",
+          "missing_identity_terms": [],
+          "has_trigger": true
+        }
+      }
+    },
+    {
+      "image_path": "images/generated/dataset/elena_voss/cafeteria/elena_voss_cafeteria_001_00007_.png",
+      "category": "cafeteria",
+      "scores": {
+        "face": 68.15,
+        "body": 70.29,
+        "style": 88.71,
+        "narrative": 100.0,
+        "global": 76.65
+      },
+      "approved": false,
+      "metrics": {
+        "face_detected": true,
+        "face_similarity": 0.78854,
+        "pose_landmarks_visible": 4,
+        "pose_visibility": 0.8221,
+        "body_completeness": 0.5,
+        "legs_measured": false,
+        "body_distance": 0.09957,
+        "style_distance": 0.1198,
+        "narrative": {
+          "category": "cafeteria",
+          "missing_identity_terms": [],
+          "has_trigger": true
+        }
+      }
+    },
+    {
+      "image_path": "images/generated/dataset/elena_voss/gym/elena_voss_gym_001_00007_.png",
+      "category": "fitness",
+      "scores": {
+        "face": 85.79,
+        "body": 64.61,
+        "style": 87.87,
+        "narrative": 100.0,
+        "global": 81.88
+      },
+      "approved": false,
+      "metrics": {
+        "face_detected": true,
+        "face_similarity": 0.85028,
+        "pose_landmarks_visible": 4,
+        "pose_visibility": 0.9892,
+        "body_completeness": 0.5,
+        "legs_measured": false,
+        "body_distance": 0.13786,
+        "style_distance": 0.12928,
+        "narrative": {
+          "category": "fitness",
+          "missing_identity_terms": [],
+          "has_trigger": true
+        }
+      }
+    },
+    {
+      "image_path": "images/generated/dataset/elena_voss/viajes/elena_voss_viajes_001_00007_.png",
+      "category": "viajes",
+      "scores": {
+        "face": 69.04,
+        "body": 81.64,
+        "style": 91.86,
+        "narrative": 100.0,
+        "global": 80.89
+      },
+      "approved": false,
+      "metrics": {
+        "face_detected": true,
+        "face_similarity": 0.79165,
+        "pose_landmarks_visible": 5,
+        "pose_visibility": 0.8725,
+        "body_completeness": 0.625,
+        "legs_measured": false,
+        "body_distance": 0.04747,
+        "style_distance": 0.08485,
+        "narrative": {
+          "category": "viajes",
+          "missing_identity_terms": [],
+          "has_trigger": true
+        }
+      }
+    },
+    {
+      "image_path": "images/generated/dataset/elena_voss/lifestyle/elena_voss_lifestyle_001_00007_.png",
+      "category": "vida_diaria",
+      "scores": {
+        "face": 72.53,
+        "body": 57.58,
+        "style": 88.58,
+        "narrative": 100.0,
+        "global": 74.57
+      },
+      "approved": false,
+      "metrics": {
+        "face_detected": true,
+        "face_similarity": 0.80385,
+        "pose_landmarks_visible": 4,
+        "pose_visibility": 0.9975,
+        "body_completeness": 0.5,
+        "legs_measured": false,
+        "body_distance": 0.19018,
+        "style_distance": 0.12129,
+        "narrative": {
+          "category": "vida_diaria",
+          "missing_identity_terms": [],
+          "has_trigger": true
+        }
+      }
+    }
+  ]
+}

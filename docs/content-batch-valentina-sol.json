@@ -1,0 +1,1929 @@
+{
+  "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+  "character": "Valentina Sol",
+  "model": "qwen3:8b",
+  "started_at": "2026-05-31T23:22:36.428262+00:00",
+  "finished_at": "2026-05-31T23:29:26.270235+00:00",
+  "actual_counts": {
+    "tiktok_idea": 20,
+    "caption": 20,
+    "hook": 20,
+    "story": 20
+  },
+  "diagnostics": {
+    "tiktok_idea": [
+      {
+        "attempt": 1,
+        "elapsed_seconds": 123.691,
+        "response_tokens": 2383,
+        "items_returned": 20
+      }
+    ],
+    "caption": [
+      {
+        "attempt": 1,
+        "elapsed_seconds": 80.35,
+        "response_tokens": 1581,
+        "items_returned": 20
+      }
+    ],
+    "hook": [
+      {
+        "attempt": 1,
+        "elapsed_seconds": 67.273,
+        "response_tokens": 1322,
+        "items_returned": 20
+      }
+    ],
+    "story": [
+      {
+        "attempt": 1,
+        "elapsed_seconds": 138.509,
+        "response_tokens": 2694,
+        "items_returned": 20
+      }
+    ]
+  },
+  "items": [
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "tiktok_idea",
+      "category": "playa",
+      "platform": "TikTok",
+      "title": "Como preparar una ensalada de frutas para el desayuno en la playa",
+      "body": "Una receta simple y refrescante que puedes hacer en casa y llevar contigo a la playa. Ideal para disfrutar del sol con energ\u00eda.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera ideas de video TikTok para Valentina Sol. Cada item debe tener: title, category, description, visual_scene, cta. Usa categorias repartidas entre playa, cafeteria, gym, viajes y lifestyle.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 1,
+        "raw": {
+          "category": "playa",
+          "title": "Como preparar una ensalada de frutas para el desayuno en la playa",
+          "description": "Una receta simple y refrescante que puedes hacer en casa y llevar contigo a la playa. Ideal para disfrutar del sol con energ\u00eda.",
+          "visual_scene": "Valentina prepara una ensalada de frutas en una bandeja, con una botella de agua y una toalla al lado.",
+          "cta": "\u00bfQuieres probar esta receta? \u00a1Sigue mi cuenta para m\u00e1s ideas de alimentaci\u00f3n saludable!"
+        },
+        "prompt_type": "tiktok_idea"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "tiktok_idea",
+      "category": "cafeteria",
+      "platform": "TikTok",
+      "title": "El mejor caf\u00e9 de la ciudad para empezar el d\u00eda",
+      "body": "Descubre un lugar tranquilo donde el caf\u00e9 es lo m\u00e1s importante. Ideal para leer, trabajar o simplemente relajarte.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera ideas de video TikTok para Valentina Sol. Cada item debe tener: title, category, description, visual_scene, cta. Usa categorias repartidas entre playa, cafeteria, gym, viajes y lifestyle.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 2,
+        "raw": {
+          "category": "cafeteria",
+          "title": "El mejor caf\u00e9 de la ciudad para empezar el d\u00eda",
+          "description": "Descubre un lugar tranquilo donde el caf\u00e9 es lo m\u00e1s importante. Ideal para leer, trabajar o simplemente relajarte.",
+          "visual_scene": "Valentina toma un caf\u00e9 en una cafeter\u00eda con vista a la calle, con una libreta y un bol\u00edgrafo al lado.",
+          "cta": "\u00bfTe gustar\u00eda conocer este lugar? \u00a1M\u00e1ndame un mensaje y te cuento m\u00e1s!"
+        },
+        "prompt_type": "tiktok_idea"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "tiktok_idea",
+      "category": "gym",
+      "platform": "TikTok",
+      "title": "Rutina de 20 minutos para tonificar el core",
+      "body": "Una rutina sencilla y efectiva que puedes hacer en casa. Ideal para mejorar tu postura y sentirte m\u00e1s fuerte.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera ideas de video TikTok para Valentina Sol. Cada item debe tener: title, category, description, visual_scene, cta. Usa categorias repartidas entre playa, cafeteria, gym, viajes y lifestyle.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 3,
+        "raw": {
+          "category": "gym",
+          "title": "Rutina de 20 minutos para tonificar el core",
+          "description": "Una rutina sencilla y efectiva que puedes hacer en casa. Ideal para mejorar tu postura y sentirte m\u00e1s fuerte.",
+          "visual_scene": "Valentina hace ejercicios de core en el suelo, con una toalla y una botella de agua al lado.",
+          "cta": "\u00bfQuieres probar esta rutina? \u00a1Sigue mi cuenta para m\u00e1s consejos de fitness!"
+        },
+        "prompt_type": "tiktok_idea"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "tiktok_idea",
+      "category": "viajes",
+      "platform": "TikTok",
+      "title": "Descubre el encanto de un viaje de fin de semana en bicicleta",
+      "body": "Un viaje sostenible y relajante que te llevar\u00e1 a descubrir lugares nuevos. Ideal para desconectar y disfrutar del paisaje.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera ideas de video TikTok para Valentina Sol. Cada item debe tener: title, category, description, visual_scene, cta. Usa categorias repartidas entre playa, cafeteria, gym, viajes y lifestyle.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 4,
+        "raw": {
+          "category": "viajes",
+          "title": "Descubre el encanto de un viaje de fin de semana en bicicleta",
+          "description": "Un viaje sostenible y relajante que te llevar\u00e1 a descubrir lugares nuevos. Ideal para desconectar y disfrutar del paisaje.",
+          "visual_scene": "Valentina pedalea por una ruta costera, con el sol al caer y una mochila al hombro.",
+          "cta": "\u00bfTe gustar\u00eda hacer un viaje como este? \u00a1M\u00e1ndame un mensaje y te cuento m\u00e1s!"
+        },
+        "prompt_type": "tiktok_idea"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "tiktok_idea",
+      "category": "lifestyle",
+      "platform": "TikTok",
+      "title": "C\u00f3mo organizar tu espacio para sentirte m\u00e1s tranquila",
+      "body": "Un consejo pr\u00e1ctico para ordenar tu espacio y crear un ambiente de calma. Ideal para mejorar tu bienestar diario.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera ideas de video TikTok para Valentina Sol. Cada item debe tener: title, category, description, visual_scene, cta. Usa categorias repartidas entre playa, cafeteria, gym, viajes y lifestyle.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 5,
+        "raw": {
+          "category": "lifestyle",
+          "title": "C\u00f3mo organizar tu espacio para sentirte m\u00e1s tranquila",
+          "description": "Un consejo pr\u00e1ctico para ordenar tu espacio y crear un ambiente de calma. Ideal para mejorar tu bienestar diario.",
+          "visual_scene": "Valentina organiza una mesa de trabajo con libros, plantas y una taza de t\u00e9.",
+          "cta": "\u00bfQuieres aprender a organizar tu espacio? \u00a1Sigue mi cuenta para m\u00e1s ideas!"
+        },
+        "prompt_type": "tiktok_idea"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "tiktok_idea",
+      "category": "playa",
+      "platform": "TikTok",
+      "title": "C\u00f3mo hacer un ba\u00f1o de sol sin da\u00f1ar tu piel",
+      "body": "Un consejo pr\u00e1ctico para disfrutar del sol de forma segura. Ideal para protegerte y no quemarte.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera ideas de video TikTok para Valentina Sol. Cada item debe tener: title, category, description, visual_scene, cta. Usa categorias repartidas entre playa, cafeteria, gym, viajes y lifestyle.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 6,
+        "raw": {
+          "category": "playa",
+          "title": "C\u00f3mo hacer un ba\u00f1o de sol sin da\u00f1ar tu piel",
+          "description": "Un consejo pr\u00e1ctico para disfrutar del sol de forma segura. Ideal para protegerte y no quemarte.",
+          "visual_scene": "Valentina se sienta en la arena con una sombrilla y una botella de agua al lado.",
+          "cta": "\u00bfQuieres aprender a protegerte del sol? \u00a1Sigue mi cuenta para m\u00e1s consejos!"
+        },
+        "prompt_type": "tiktok_idea"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "tiktok_idea",
+      "category": "cafeteria",
+      "platform": "TikTok",
+      "title": "El mejor lugar para tomar un caf\u00e9 con amigos",
+      "body": "Un espacio acogedor donde puedes pasar tiempo con amigos o familia. Ideal para disfrutar de un caf\u00e9 y una conversaci\u00f3n.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera ideas de video TikTok para Valentina Sol. Cada item debe tener: title, category, description, visual_scene, cta. Usa categorias repartidas entre playa, cafeteria, gym, viajes y lifestyle.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 7,
+        "raw": {
+          "category": "cafeteria",
+          "title": "El mejor lugar para tomar un caf\u00e9 con amigos",
+          "description": "Un espacio acogedor donde puedes pasar tiempo con amigos o familia. Ideal para disfrutar de un caf\u00e9 y una conversaci\u00f3n.",
+          "visual_scene": "Valentina toma un caf\u00e9 con una amiga en una cafeter\u00eda con mesas de madera y plantas.",
+          "cta": "\u00bfTe gustar\u00eda conocer este lugar? \u00a1M\u00e1ndame un mensaje y te cuento m\u00e1s!"
+        },
+        "prompt_type": "tiktok_idea"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "tiktok_idea",
+      "category": "gym",
+      "platform": "TikTok",
+      "title": "Ejercicios para mejorar tu postura en casa",
+      "body": "Un conjunto de ejercicios sencillos que puedes hacer en casa. Ideal para mejorar tu postura y sentirte m\u00e1s c\u00f3moda.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera ideas de video TikTok para Valentina Sol. Cada item debe tener: title, category, description, visual_scene, cta. Usa categorias repartidas entre playa, cafeteria, gym, viajes y lifestyle.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 8,
+        "raw": {
+          "category": "gym",
+          "title": "Ejercicios para mejorar tu postura en casa",
+          "description": "Un conjunto de ejercicios sencillos que puedes hacer en casa. Ideal para mejorar tu postura y sentirte m\u00e1s c\u00f3moda.",
+          "visual_scene": "Valentina hace ejercicios de postura en el suelo, con una toalla y una botella de agua al lado.",
+          "cta": "\u00bfQuieres probar estos ejercicios? \u00a1Sigue mi cuenta para m\u00e1s consejos!"
+        },
+        "prompt_type": "tiktok_idea"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "tiktok_idea",
+      "category": "viajes",
+      "platform": "TikTok",
+      "title": "C\u00f3mo planificar un viaje de fin de semana con poco presupuesto",
+      "body": "Un consejo pr\u00e1ctico para viajar sin gastar mucho. Ideal para disfrutar de un viaje econ\u00f3mico y divertido.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera ideas de video TikTok para Valentina Sol. Cada item debe tener: title, category, description, visual_scene, cta. Usa categorias repartidas entre playa, cafeteria, gym, viajes y lifestyle.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 9,
+        "raw": {
+          "category": "viajes",
+          "title": "C\u00f3mo planificar un viaje de fin de semana con poco presupuesto",
+          "description": "Un consejo pr\u00e1ctico para viajar sin gastar mucho. Ideal para disfrutar de un viaje econ\u00f3mico y divertido.",
+          "visual_scene": "Valentina mira un mapa y una gu\u00eda de viaje en su mesita de noche.",
+          "cta": "\u00bfQuieres aprender a planificar un viaje econ\u00f3mico? \u00a1M\u00e1ndame un mensaje y te cuento m\u00e1s!"
+        },
+        "prompt_type": "tiktok_idea"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "tiktok_idea",
+      "category": "lifestyle",
+      "platform": "TikTok",
+      "title": "C\u00f3mo mejorar tu productividad con rutinas sencillas",
+      "body": "Un consejo pr\u00e1ctico para organizar tu d\u00eda y sentirte m\u00e1s productiva. Ideal para mejorar tu bienestar diario.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera ideas de video TikTok para Valentina Sol. Cada item debe tener: title, category, description, visual_scene, cta. Usa categorias repartidas entre playa, cafeteria, gym, viajes y lifestyle.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 10,
+        "raw": {
+          "category": "lifestyle",
+          "title": "C\u00f3mo mejorar tu productividad con rutinas sencillas",
+          "description": "Un consejo pr\u00e1ctico para organizar tu d\u00eda y sentirte m\u00e1s productiva. Ideal para mejorar tu bienestar diario.",
+          "visual_scene": "Valentina escribe en una libreta con un bol\u00edgrafo y una taza de caf\u00e9 al lado.",
+          "cta": "\u00bfQuieres aprender a mejorar tu productividad? \u00a1Sigue mi cuenta para m\u00e1s ideas!"
+        },
+        "prompt_type": "tiktok_idea"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "tiktok_idea",
+      "category": "playa",
+      "platform": "TikTok",
+      "title": "C\u00f3mo hacer un picnic perfecto en la playa",
+      "body": "Un consejo pr\u00e1ctico para preparar un picnic sencillo y delicioso. Ideal para disfrutar del sol y la naturaleza.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera ideas de video TikTok para Valentina Sol. Cada item debe tener: title, category, description, visual_scene, cta. Usa categorias repartidas entre playa, cafeteria, gym, viajes y lifestyle.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 11,
+        "raw": {
+          "category": "playa",
+          "title": "C\u00f3mo hacer un picnic perfecto en la playa",
+          "description": "Un consejo pr\u00e1ctico para preparar un picnic sencillo y delicioso. Ideal para disfrutar del sol y la naturaleza.",
+          "visual_scene": "Valentina pone una manta y comida en la arena con una botella de agua al lado.",
+          "cta": "\u00bfQuieres probar esta receta? \u00a1Sigue mi cuenta para m\u00e1s ideas de alimentaci\u00f3n saludable!"
+        },
+        "prompt_type": "tiktok_idea"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "tiktok_idea",
+      "category": "cafeteria",
+      "platform": "TikTok",
+      "title": "El mejor caf\u00e9 de la ciudad para leer un libro",
+      "body": "Un lugar tranquilo donde puedes leer un libro o un art\u00edculo. Ideal para disfrutar del caf\u00e9 y la lectura.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera ideas de video TikTok para Valentina Sol. Cada item debe tener: title, category, description, visual_scene, cta. Usa categorias repartidas entre playa, cafeteria, gym, viajes y lifestyle.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 12,
+        "raw": {
+          "category": "cafeteria",
+          "title": "El mejor caf\u00e9 de la ciudad para leer un libro",
+          "description": "Un lugar tranquilo donde puedes leer un libro o un art\u00edculo. Ideal para disfrutar del caf\u00e9 y la lectura.",
+          "visual_scene": "Valentina lee un libro en una cafeter\u00eda con una taza de caf\u00e9 al lado.",
+          "cta": "\u00bfTe gustar\u00eda conocer este lugar? \u00a1M\u00e1ndame un mensaje y te cuento m\u00e1s!"
+        },
+        "prompt_type": "tiktok_idea"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "tiktok_idea",
+      "category": "gym",
+      "platform": "TikTok",
+      "title": "Ejercicios para tonificar las piernas en casa",
+      "body": "Un conjunto de ejercicios sencillos que puedes hacer en casa. Ideal para mejorar tu f\u00edsico y sentirte m\u00e1s fuerte.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera ideas de video TikTok para Valentina Sol. Cada item debe tener: title, category, description, visual_scene, cta. Usa categorias repartidas entre playa, cafeteria, gym, viajes y lifestyle.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 13,
+        "raw": {
+          "category": "gym",
+          "title": "Ejercicios para tonificar las piernas en casa",
+          "description": "Un conjunto de ejercicios sencillos que puedes hacer en casa. Ideal para mejorar tu f\u00edsico y sentirte m\u00e1s fuerte.",
+          "visual_scene": "Valentina hace ejercicios de piernas en el suelo, con una toalla y una botella de agua al lado.",
+          "cta": "\u00bfQuieres probar estos ejercicios? \u00a1Sigue mi cuenta para m\u00e1s consejos!"
+        },
+        "prompt_type": "tiktok_idea"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "tiktok_idea",
+      "category": "viajes",
+      "platform": "TikTok",
+      "title": "C\u00f3mo viajar en tren a una ciudad cercana",
+      "body": "Un consejo pr\u00e1ctico para planificar un viaje en tren. Ideal para disfrutar de un viaje sostenible y divertido.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera ideas de video TikTok para Valentina Sol. Cada item debe tener: title, category, description, visual_scene, cta. Usa categorias repartidas entre playa, cafeteria, gym, viajes y lifestyle.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 14,
+        "raw": {
+          "category": "viajes",
+          "title": "C\u00f3mo viajar en tren a una ciudad cercana",
+          "description": "Un consejo pr\u00e1ctico para planificar un viaje en tren. Ideal para disfrutar de un viaje sostenible y divertido.",
+          "visual_scene": "Valentina mira el reloj y la ruta del tren en su tel\u00e9fono.",
+          "cta": "\u00bfQuieres aprender a viajar en tren? \u00a1M\u00e1ndame un mensaje y te cuento m\u00e1s!"
+        },
+        "prompt_type": "tiktok_idea"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "tiktok_idea",
+      "category": "lifestyle",
+      "platform": "TikTok",
+      "title": "C\u00f3mo cuidar tu mente con rutinas sencillas",
+      "body": "Un consejo pr\u00e1ctico para mejorar tu bienestar mental. Ideal para sentirte m\u00e1s tranquila y feliz.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera ideas de video TikTok para Valentina Sol. Cada item debe tener: title, category, description, visual_scene, cta. Usa categorias repartidas entre playa, cafeteria, gym, viajes y lifestyle.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 15,
+        "raw": {
+          "category": "lifestyle",
+          "title": "C\u00f3mo cuidar tu mente con rutinas sencillas",
+          "description": "Un consejo pr\u00e1ctico para mejorar tu bienestar mental. Ideal para sentirte m\u00e1s tranquila y feliz.",
+          "visual_scene": "Valentina escribe en una libreta con un bol\u00edgrafo y una taza de t\u00e9 al lado.",
+          "cta": "\u00bfQuieres aprender a cuidar tu mente? \u00a1Sigue mi cuenta para m\u00e1s ideas!"
+        },
+        "prompt_type": "tiktok_idea"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "tiktok_idea",
+      "category": "playa",
+      "platform": "TikTok",
+      "title": "C\u00f3mo preparar un c\u00f3ctel de pi\u00f1a y hielo para el verano",
+      "body": "Una receta simple y refrescante que puedes hacer en casa y llevar contigo a la playa. Ideal para disfrutar del sol con energ\u00eda.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera ideas de video TikTok para Valentina Sol. Cada item debe tener: title, category, description, visual_scene, cta. Usa categorias repartidas entre playa, cafeteria, gym, viajes y lifestyle.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 16,
+        "raw": {
+          "category": "playa",
+          "title": "C\u00f3mo preparar un c\u00f3ctel de pi\u00f1a y hielo para el verano",
+          "description": "Una receta simple y refrescante que puedes hacer en casa y llevar contigo a la playa. Ideal para disfrutar del sol con energ\u00eda.",
+          "visual_scene": "Valentina prepara un c\u00f3ctel de pi\u00f1a y hielo en una taza, con una botella de agua al lado.",
+          "cta": "\u00bfQuieres probar esta receta? \u00a1Sigue mi cuenta para m\u00e1s ideas de alimentaci\u00f3n saludable!"
+        },
+        "prompt_type": "tiktok_idea"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "tiktok_idea",
+      "category": "cafeteria",
+      "platform": "TikTok",
+      "title": "El mejor lugar para tomar un caf\u00e9 y trabajar",
+      "body": "Un espacio acogedor donde puedes trabajar o estudiar. Ideal para disfrutar del caf\u00e9 y la concentraci\u00f3n.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera ideas de video TikTok para Valentina Sol. Cada item debe tener: title, category, description, visual_scene, cta. Usa categorias repartidas entre playa, cafeteria, gym, viajes y lifestyle.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 17,
+        "raw": {
+          "category": "cafeteria",
+          "title": "El mejor lugar para tomar un caf\u00e9 y trabajar",
+          "description": "Un espacio acogedor donde puedes trabajar o estudiar. Ideal para disfrutar del caf\u00e9 y la concentraci\u00f3n.",
+          "visual_scene": "Valentina escribe en una libreta con un bol\u00edgrafo y una taza de caf\u00e9 al lado.",
+          "cta": "\u00bfTe gustar\u00eda conocer este lugar? \u00a1M\u00e1ndame un mensaje y te cuento m\u00e1s!"
+        },
+        "prompt_type": "tiktok_idea"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "tiktok_idea",
+      "category": "gym",
+      "platform": "TikTok",
+      "title": "Ejercicios para mejorar tu flexibilidad en casa",
+      "body": "Un conjunto de ejercicios sencillos que puedes hacer en casa. Ideal para mejorar tu flexibilidad y sentirte m\u00e1s c\u00f3moda.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera ideas de video TikTok para Valentina Sol. Cada item debe tener: title, category, description, visual_scene, cta. Usa categorias repartidas entre playa, cafeteria, gym, viajes y lifestyle.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 18,
+        "raw": {
+          "category": "gym",
+          "title": "Ejercicios para mejorar tu flexibilidad en casa",
+          "description": "Un conjunto de ejercicios sencillos que puedes hacer en casa. Ideal para mejorar tu flexibilidad y sentirte m\u00e1s c\u00f3moda.",
+          "visual_scene": "Valentina hace ejercicios de flexibilidad en el suelo, con una toalla y una botella de agua al lado.",
+          "cta": "\u00bfQuieres probar estos ejercicios? \u00a1Sigue mi cuenta para m\u00e1s consejos!"
+        },
+        "prompt_type": "tiktok_idea"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "tiktok_idea",
+      "category": "viajes",
+      "platform": "TikTok",
+      "title": "C\u00f3mo planificar un viaje de fin de semana en coche",
+      "body": "Un consejo pr\u00e1ctico para planificar un viaje en coche. Ideal para disfrutar de un viaje sostenible y divertido.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera ideas de video TikTok para Valentina Sol. Cada item debe tener: title, category, description, visual_scene, cta. Usa categorias repartidas entre playa, cafeteria, gym, viajes y lifestyle.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 19,
+        "raw": {
+          "category": "viajes",
+          "title": "C\u00f3mo planificar un viaje de fin de semana en coche",
+          "description": "Un consejo pr\u00e1ctico para planificar un viaje en coche. Ideal para disfrutar de un viaje sostenible y divertido.",
+          "visual_scene": "Valentina mira el mapa y la ruta del coche en su tel\u00e9fono.",
+          "cta": "\u00bfQuieres aprender a planificar un viaje en coche? \u00a1M\u00e1ndame un mensaje y te cuento m\u00e1s!"
+        },
+        "prompt_type": "tiktok_idea"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "tiktok_idea",
+      "category": "lifestyle",
+      "platform": "TikTok",
+      "title": "C\u00f3mo mejorar tu autoestima con rutinas sencillas",
+      "body": "Un consejo pr\u00e1ctico para mejorar tu autoestima. Ideal para sentirte m\u00e1s feliz y segura.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera ideas de video TikTok para Valentina Sol. Cada item debe tener: title, category, description, visual_scene, cta. Usa categorias repartidas entre playa, cafeteria, gym, viajes y lifestyle.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 20,
+        "raw": {
+          "category": "lifestyle",
+          "title": "C\u00f3mo mejorar tu autoestima con rutinas sencillas",
+          "description": "Un consejo pr\u00e1ctico para mejorar tu autoestima. Ideal para sentirte m\u00e1s feliz y segura.",
+          "visual_scene": "Valentina escribe en una libreta con un bol\u00edgrafo y una taza de t\u00e9 al lado.",
+          "cta": "\u00bfQuieres aprender a mejorar tu autoestima? \u00a1Sigue mi cuenta para m\u00e1s ideas!"
+        },
+        "prompt_type": "tiktok_idea"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "caption",
+      "category": "playa",
+      "platform": "Instagram/TikTok",
+      "title": "relajado",
+      "body": "La brisa de la ma\u00f1ana y el sonido del mar son lo mejor para empezar el d\u00eda. Me quedo un rato mirando el horizonte, buscando inspiraci\u00f3n.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera captions listos para publicar. Cada item debe tener: category, caption, hashtags, mood. Captions en espanol latino, naturales, sin promesas falsas.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 1,
+        "raw": {
+          "category": "playa",
+          "caption": "La brisa de la ma\u00f1ana y el sonido del mar son lo mejor para empezar el d\u00eda. Me quedo un rato mirando el horizonte, buscando inspiraci\u00f3n.",
+          "hashtags": "#vidaenlaplaya #conexionconla naturaleza #momentosdecalma",
+          "mood": "relajado"
+        },
+        "prompt_type": "caption"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "caption",
+      "category": "cafeteria",
+      "platform": "Instagram/TikTok",
+      "title": "calmado",
+      "body": "Una taza de caf\u00e9 reci\u00e9n hecho y una mesa al aire libre. Los detalles peque\u00f1os son los que hacen la diferencia.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera captions listos para publicar. Cada item debe tener: category, caption, hashtags, mood. Captions en espanol latino, naturales, sin promesas falsas.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 2,
+        "raw": {
+          "category": "cafeteria",
+          "caption": "Una taza de caf\u00e9 reci\u00e9n hecho y una mesa al aire libre. Los detalles peque\u00f1os son los que hacen la diferencia.",
+          "hashtags": "#cafeteriadeldia #lifestylelatino #diasconflavor",
+          "mood": "calmado"
+        },
+        "prompt_type": "caption"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "caption",
+      "category": "gym",
+      "platform": "Instagram/TikTok",
+      "title": "motivador",
+      "body": "No es sobre ser perfecta, es sobre hacer lo que te hace sentir bien. Hoy me enfoc\u00e9 en movilidad y respiraci\u00f3n.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera captions listos para publicar. Cada item debe tener: category, caption, hashtags, mood. Captions en espanol latino, naturales, sin promesas falsas.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 3,
+        "raw": {
+          "category": "gym",
+          "caption": "No es sobre ser perfecta, es sobre hacer lo que te hace sentir bien. Hoy me enfoc\u00e9 en movilidad y respiraci\u00f3n.",
+          "hashtags": "#gymamable #vidaactiva #cuerpoymente",
+          "mood": "motivador"
+        },
+        "prompt_type": "caption"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "caption",
+      "category": "viajes",
+      "platform": "Instagram/TikTok",
+      "title": "aspiracional",
+      "body": "Un viaje corto, una ciudad nueva y una mente abierta. La vida es m\u00e1s interesante cuando exploras con curiosidad.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera captions listos para publicar. Cada item debe tener: category, caption, hashtags, mood. Captions en espanol latino, naturales, sin promesas falsas.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 4,
+        "raw": {
+          " nadir": "viajes",
+          "caption": "Un viaje corto, una ciudad nueva y una mente abierta. La vida es m\u00e1s interesante cuando exploras con curiosidad.",
+          "hashtags": "#viajescortos #ciudadnueva #experiencias",
+          "mood": "aspiracional"
+        },
+        "prompt_type": "caption"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "caption",
+      "category": "lifestyle",
+      "platform": "Instagram/TikTok",
+      "title": "reflexivo",
+      "body": "Hoy me enfoc\u00e9 en lo que realmente importa: momentos simples, conexiones reales y un poco de paz.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera captions listos para publicar. Cada item debe tener: category, caption, hashtags, mood. Captions en espanol latino, naturales, sin promesas falsas.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 5,
+        "raw": {
+          "category": "lifestyle",
+          "caption": "Hoy me enfoc\u00e9 en lo que realmente importa: momentos simples, conexiones reales y un poco de paz.",
+          "hashtags": "#lifestyleconsciente #vidaenbalance #momentosreales",
+          "mood": "reflexivo"
+        },
+        "prompt_type": "caption"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "caption",
+      "category": "playa",
+      "platform": "Instagram/TikTok",
+      "title": "relajado",
+      "body": "El mar es un lugar de descanso y conexi\u00f3n. Hoy me qued\u00e9 mirando las olas, recordando que la vida tambi\u00e9n tiene ritmo.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera captions listos para publicar. Cada item debe tener: category, caption, hashtags, mood. Captions en espanol latino, naturales, sin promesas falsas.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 6,
+        "raw": {
+          "category": "playa",
+          "caption": "El mar es un lugar de descanso y conexi\u00f3n. Hoy me qued\u00e9 mirando las olas, recordando que la vida tambi\u00e9n tiene ritmo.",
+          "hashtags": "#playasenlatinoamerica #conexionconlamar #momentosdecalma",
+          "mood": "relajado"
+        },
+        "prompt_type": "caption"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "caption",
+      "category": "cafeteria",
+      "platform": "Instagram/TikTok",
+      "title": "calmado",
+      "body": "Una ma\u00f1ana tranquila, una taza de caf\u00e9 y un espacio que te hace sentir como en casa. Los peque\u00f1os detalles son los que marcan la diferencia.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera captions listos para publicar. Cada item debe tener: category, caption, hashtags, mood. Captions en espanol latino, naturales, sin promesas falsas.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 7,
+        "raw": {
+          "category": "cafeteria",
+          "caption": "Una ma\u00f1ana tranquila, una taza de caf\u00e9 y un espacio que te hace sentir como en casa. Los peque\u00f1os detalles son los que marcan la diferencia.",
+          "hashtags": "#caf\u00e9yconexi\u00f3n #diasconflavor #lifestylelatino",
+          "mood": "calmado"
+        },
+        "prompt_type": "caption"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "caption",
+      "category": "gym",
+      "platform": "Instagram/TikTok",
+      "title": "motivador",
+      "body": "El ejercicio no tiene que ser intenso. A veces, es solo sobre mantener la rutina y sentirse bien contigo mismo.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera captions listos para publicar. Cada item debe tener: category, caption, hashtags, mood. Captions en espanol latino, naturales, sin promesas falsas.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 8,
+        "raw": {
+          "category": "gym",
+          "caption": "El ejercicio no tiene que ser intenso. A veces, es solo sobre mantener la rutina y sentirse bien contigo mismo.",
+          "hashtags": "#gymamable #vidaactiva #cuerpoymente",
+          "mood": "motivador"
+        },
+        "prompt_type": "caption"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "caption",
+      "category": "viajes",
+      "platform": "Instagram/TikTok",
+      "title": "aspiracional",
+      "body": "Un viaje corto, una ciudad nueva y una mente abierta. La vida es m\u00e1s interesante cuando exploras con curiosidad.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera captions listos para publicar. Cada item debe tener: category, caption, hashtags, mood. Captions en espanol latino, naturales, sin promesas falsas.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 9,
+        "raw": {
+          "category": "viajes",
+          "caption": "Un viaje corto, una ciudad nueva y una mente abierta. La vida es m\u00e1s interesante cuando exploras con curiosidad.",
+          "hashtags": "#viajescortos #ciudadnueva #experiencias",
+          "mood": "aspiracional"
+        },
+        "prompt_type": "caption"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "caption",
+      "category": "lifestyle",
+      "platform": "Instagram/TikTok",
+      "title": "reflexivo",
+      "body": "Hoy me enfoc\u00e9 en lo que realmente importa: momentos simples, conexiones reales y un poco de paz.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera captions listos para publicar. Cada item debe tener: category, caption, hashtags, mood. Captions en espanol latino, naturales, sin promesas falsas.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 10,
+        "raw": {
+          "category": "lifestyle",
+          "caption": "Hoy me enfoc\u00e9 en lo que realmente importa: momentos simples, conexiones reales y un poco de paz.",
+          "hashtags": "#lifestyleconsciente #vidaenbalance #momentosreales",
+          "mood": "reflexivo"
+        },
+        "prompt_type": "caption"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "caption",
+      "category": "playa",
+      "platform": "Instagram/TikTok",
+      "title": "relajado",
+      "body": "La brisa de la ma\u00f1ana y el sonido del mar son lo mejor para empezar el d\u00eda. Me quedo un rato mirando el horizonte, buscando inspiraci\u00f3n.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera captions listos para publicar. Cada item debe tener: category, caption, hashtags, mood. Captions en espanol latino, naturales, sin promesas falsas.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 11,
+        "raw": {
+          "category": "playa",
+          "caption": "La brisa de la ma\u00f1ana y el sonido del mar son lo mejor para empezar el d\u00eda. Me quedo un rato mirando el horizonte, buscando inspiraci\u00f3n.",
+          "hashtags": "#vidaenlaplaya #conexionconla naturaleza #momentosdecalma",
+          "mood": "relajado"
+        },
+        "prompt_type": "caption"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "caption",
+      "category": "cafeteria",
+      "platform": "Instagram/TikTok",
+      "title": "calmado",
+      "body": "Una taza de caf\u00e9 reci\u00e9n hecho y una mesa al aire libre. Los detalles peque\u00f1os son los que hacen la diferencia.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera captions listos para publicar. Cada item debe tener: category, caption, hashtags, mood. Captions en espanol latino, naturales, sin promesas falsas.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 12,
+        "raw": {
+          "category": "cafeteria",
+          "caption": "Una taza de caf\u00e9 reci\u00e9n hecho y una mesa al aire libre. Los detalles peque\u00f1os son los que hacen la diferencia.",
+          "hashtags": "#cafeteriadeldia #lifestylelatino #diasconflavor",
+          "mood": "calmado"
+        },
+        "prompt_type": "caption"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "caption",
+      "category": "gym",
+      "platform": "Instagram/TikTok",
+      "title": "motivador",
+      "body": "No es sobre ser perfecta, es sobre hacer lo que te hace sentir bien. Hoy me enfoc\u00e9 en movilidad y respiraci\u00f3n.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera captions listos para publicar. Cada item debe tener: category, caption, hashtags, mood. Captions en espanol latino, naturales, sin promesas falsas.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 13,
+        "raw": {
+          "category": "gym",
+          "caption": "No es sobre ser perfecta, es sobre hacer lo que te hace sentir bien. Hoy me enfoc\u00e9 en movilidad y respiraci\u00f3n.",
+          "hashtags": "#gymamable #vidaactiva #cuerpoymente",
+          "mood": "motivador"
+        },
+        "prompt_type": "caption"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "caption",
+      "category": "viajes",
+      "platform": "Instagram/TikTok",
+      "title": "aspiracional",
+      "body": "Un viaje corto, una ciudad nueva y una mente abierta. La vida es m\u00e1s interesante cuando exploras con curiosidad.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera captions listos para publicar. Cada item debe tener: category, caption, hashtags, mood. Captions en espanol latino, naturales, sin promesas falsas.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 14,
+        "raw": {
+          "category": "viajes",
+          "caption": "Un viaje corto, una ciudad nueva y una mente abierta. La vida es m\u00e1s interesante cuando exploras con curiosidad.",
+          "hashtags": "#viajescortos #ciudadnueva #experiencias",
+          "mood": "aspiracional"
+        },
+        "prompt_type": "caption"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "caption",
+      "category": "lifestyle",
+      "platform": "Instagram/TikTok",
+      "title": "reflexivo",
+      "body": "Hoy me enfoc\u00e9 en lo que realmente importa: momentos simples, conexiones reales y un poco de paz.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera captions listos para publicar. Cada item debe tener: category, caption, hashtags, mood. Captions en espanol latino, naturales, sin promesas falsas.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 15,
+        "raw": {
+          "category": "lifestyle",
+          "caption": "Hoy me enfoc\u00e9 en lo que realmente importa: momentos simples, conexiones reales y un poco de paz.",
+          "hashtags": "#lifestyleconsciente #vidaenbalance #momentosreales",
+          "mood": "reflexivo"
+        },
+        "prompt_type": "caption"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "caption",
+      "category": "playa",
+      "platform": "Instagram/TikTok",
+      "title": "relajado",
+      "body": "El mar es un lugar de descanso y conexi\u00f3n. Hoy me qued\u00e9 mirando las olas, recordando que la vida tambi\u00e9n tiene ritmo.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera captions listos para publicar. Cada item debe tener: category, caption, hashtags, mood. Captions en espanol latino, naturales, sin promesas falsas.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 16,
+        "raw": {
+          "category": "playa",
+          "caption": "El mar es un lugar de descanso y conexi\u00f3n. Hoy me qued\u00e9 mirando las olas, recordando que la vida tambi\u00e9n tiene ritmo.",
+          "hashtags": "#playasenlatinoamerica #conexionconlamar #momentosdecalma",
+          "mood": "relajado"
+        },
+        "prompt_type": "caption"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "caption",
+      "category": "cafeteria",
+      "platform": "Instagram/TikTok",
+      "title": "calmado",
+      "body": "Una ma\u00f1ana tranquila, una taza de caf\u00e9 y un espacio que te hace sentir como en casa. Los peque\u00f1os detalles son los que marcan la diferencia.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera captions listos para publicar. Cada item debe tener: category, caption, hashtags, mood. Captions en espanol latino, naturales, sin promesas falsas.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 17,
+        "raw": {
+          "category": "cafeteria",
+          "caption": "Una ma\u00f1ana tranquila, una taza de caf\u00e9 y un espacio que te hace sentir como en casa. Los peque\u00f1os detalles son los que marcan la diferencia.",
+          "hashtags": "#caf\u00e9yconexi\u00f3n #diasconflavor #lifestylelatino",
+          "mood": "calmado"
+        },
+        "prompt_type": "caption"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "caption",
+      "category": "gym",
+      "platform": "Instagram/TikTok",
+      "title": "motivador",
+      "body": "El ejercicio no tiene que ser intenso. A veces, es solo sobre mantener la rutina y sentirse bien contigo mismo.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera captions listos para publicar. Cada item debe tener: category, caption, hashtags, mood. Captions en espanol latino, naturales, sin promesas falsas.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 18,
+        "raw": {
+          "category": "gym",
+          "caption": "El ejercicio no tiene que ser intenso. A veces, es solo sobre mantener la rutina y sentirse bien contigo mismo.",
+          "hashtags": "#gymamable #vidaactiva #cuerpoymente",
+          "mood": "motivador"
+        },
+        "prompt_type": "caption"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "caption",
+      "category": "viajes",
+      "platform": "Instagram/TikTok",
+      "title": "aspiracional",
+      "body": "Un viaje corto, una ciudad nueva y una mente abierta. La vida es m\u00e1s interesante cuando exploras con curiosidad.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera captions listos para publicar. Cada item debe tener: category, caption, hashtags, mood. Captions en espanol latino, naturales, sin promesas falsas.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 19,
+        "raw": {
+          "category": "viajes",
+          "caption": "Un viaje corto, una ciudad nueva y una mente abierta. La vida es m\u00e1s interesante cuando exploras con curiosidad.",
+          "hashtags": "#viajescortos #ciudadnueva #experiencias",
+          "mood": "aspiracional"
+        },
+        "prompt_type": "caption"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "caption",
+      "category": "lifestyle",
+      "platform": "Instagram/TikTok",
+      "title": "reflexivo",
+      "body": "Hoy me enfoc\u00e9 en lo que realmente importa: momentos simples, conexiones reales y un poco de paz.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera captions listos para publicar. Cada item debe tener: category, caption, hashtags, mood. Captions en espanol latino, naturales, sin promesas falsas.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 20,
+        "raw": {
+          "category": "lifestyle",
+          "caption": "Hoy me enfoc\u00e9 en lo que realmente importa: momentos simples, conexiones reales y un poco de paz.",
+          "hashtags": "#lifestyleconsciente #vidaenbalance #momentosreales",
+          "mood": "reflexivo"
+        },
+        "prompt_type": "caption"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "hook",
+      "category": "playa",
+      "platform": "TikTok",
+      "title": "Descubre c\u00f3mo la playa se convierte en tu espacio de paz",
+      "body": "\u00bfSab\u00edas que el mar puede curarte el alma?",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera hooks de primera linea para TikTok. Cada item debe tener: category, hook, angle, format. Deben abrir curiosidad sin clickbait agresivo.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 1,
+        "raw": {
+          "category": "playa",
+          "hook": "\u00bfSab\u00edas que el mar puede curarte el alma?",
+          "angle": "Descubre c\u00f3mo la playa se convierte en tu espacio de paz",
+          "format": "TikTok con escena de relajaci\u00f3n en la playa"
+        },
+        "prompt_type": "hook"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "hook",
+      "category": "cafeteria",
+      "platform": "TikTok",
+      "title": "La magia de un caf\u00e9 que te transporta a otro lugar",
+      "body": "Este caf\u00e9 me hace sentir como si estuviera en un viaje",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera hooks de primera linea para TikTok. Cada item debe tener: category, hook, angle, format. Deben abrir curiosidad sin clickbait agresivo.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 2,
+        "raw": {
+          "category": "cafeteria",
+          "hook": "Este caf\u00e9 me hace sentir como si estuviera en un viaje",
+          "angle": "La magia de un caf\u00e9 que te transporta a otro lugar",
+          "format": "TikTok con escena de toma de caf\u00e9 en un ambiente acogedor"
+        },
+        "prompt_type": "hook"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "hook",
+      "category": "gym",
+      "platform": "TikTok",
+      "title": "C\u00f3mo el gym puede ser parte de tu rutina de forma natural",
+      "body": "Ejercicio sin esfuerzo, pero con resultados",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera hooks de primera linea para TikTok. Cada item debe tener: category, hook, angle, format. Deben abrir curiosidad sin clickbait agresivo.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 3,
+        "raw": {
+          "category": "gym",
+          "hook": "Ejercicio sin esfuerzo, pero con resultados",
+          "angle": "C\u00f3mo el gym puede ser parte de tu rutina de forma natural",
+          "format": "TikTok con escena de entrenamiento suave"
+        },
+        "prompt_type": "hook"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "hook",
+      "category": "viajes",
+      "platform": "TikTok",
+      "title": "La belleza de descubrir lugares sin mapas",
+      "body": "Un viaje que no necesitaba un plan",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera hooks de primera linea para TikTok. Cada item debe tener: category, hook, angle, format. Deben abrir curiosidad sin clickbait agresivo.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 4,
+        "raw": {
+          "category": "viajes",
+          "hook": "Un viaje que no necesitaba un plan",
+          "angle": "La belleza de descubrir lugares sin mapas",
+          "format": "TikTok con escena de exploraci\u00f3n en un destino inesperado"
+        },
+        "prompt_type": "hook"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "hook",
+      "category": "lifestyle",
+      "platform": "TikTok",
+      "title": "C\u00f3mo construir un estilo de vida sostenible y feliz",
+      "body": "La vida que me gustar\u00eda vivir",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera hooks de primera linea para TikTok. Cada item debe tener: category, hook, angle, format. Deben abrir curiosidad sin clickbait agresivo.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 5,
+        "raw": {
+          "category": "lifestyle",
+          "hook": "La vida que me gustar\u00eda vivir",
+          "angle": "C\u00f3mo construir un estilo de vida sostenible y feliz",
+          "format": "TikTok con escena de rutina diaria con toques de estilo"
+        },
+        "prompt_type": "hook"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "hook",
+      "category": "playa",
+      "platform": "TikTok",
+      "title": "C\u00f3mo integrar la playa en tu rutina matutina",
+      "body": "El sonido del mar es el mejor despertador",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera hooks de primera linea para TikTok. Cada item debe tener: category, hook, angle, format. Deben abrir curiosidad sin clickbait agresivo.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 6,
+        "raw": {
+          "category": "playa",
+          "hook": "El sonido del mar es el mejor despertador",
+          "angle": "C\u00f3mo integrar la playa en tu rutina matutina",
+          "format": "TikTok con escena de levantarse al amanecer en la playa"
+        },
+        "prompt_type": "hook"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "hook",
+      "category": "cafeteria",
+      "platform": "TikTok",
+      "title": "C\u00f3mo un lugar puede evocar recuerdos y emociones",
+      "body": "Un caf\u00e9 que huele a nostalgia",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera hooks de primera linea para TikTok. Cada item debe tener: category, hook, angle, format. Deben abrir curiosidad sin clickbait agresivo.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 7,
+        "raw": {
+          "category": "cafeteria",
+          "hook": "Un caf\u00e9 que huele a nostalgia",
+          "angle": "C\u00f3mo un lugar puede evocar recuerdos y emociones",
+          "format": "TikTok con escena de toma de caf\u00e9 en un ambiente con historia"
+        },
+        "prompt_type": "hook"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "hook",
+      "category": "gym",
+      "platform": "TikTok",
+      "title": "C\u00f3mo hacer ejercicio sin sacrificar tu vida social",
+      "body": "Ejercicio que no te quita el tiempo",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera hooks de primera linea para TikTok. Cada item debe tener: category, hook, angle, format. Deben abrir curiosidad sin clickbait agresivo.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 8,
+        "raw": {
+          "3": "gym",
+          "hook": "Ejercicio que no te quita el tiempo",
+          "angle": "C\u00f3mo hacer ejercicio sin sacrificar tu vida social",
+          "format": "TikTok con escena de entrenamiento entre compromisos"
+        },
+        "prompt_type": "hook"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "hook",
+      "category": "viajes",
+      "platform": "TikTok",
+      "title": "La sorpresa de descubrir lugares inesperados",
+      "body": "Un destino que no estaba en mi lista",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera hooks de primera linea para TikTok. Cada item debe tener: category, hook, angle, format. Deben abrir curiosidad sin clickbait agresivo.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 9,
+        "raw": {
+          "category": "viajes",
+          "hook": "Un destino que no estaba en mi lista",
+          "angle": "La sorpresa de descubrir lugares inesperados",
+          "format": "TikTok con escena de exploraci\u00f3n sin plan"
+        },
+        "prompt_type": "hook"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "hook",
+      "category": "lifestyle",
+      "platform": "TikTok",
+      "title": "C\u00f3mo equilibrar ambas cosas en tu vida",
+      "body": "Vivir con prop\u00f3sito sin renunciar al placer",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera hooks de primera linea para TikTok. Cada item debe tener: category, hook, angle, format. Deben abrir curiosidad sin clickbait agresivo.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 10,
+        "raw": {
+          "category": "lifestyle",
+          "hook": "Vivir con prop\u00f3sito sin renunciar al placer",
+          "angle": "C\u00f3mo equilibrar ambas cosas en tu vida",
+          "format": "TikTok con escena de balance entre trabajo y ocio"
+        },
+        "prompt_type": "hook"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "hook",
+      "category": "playa",
+      "platform": "TikTok",
+      "title": "C\u00f3mo la playa puede ser tu espacio de introspecci\u00f3n",
+      "body": "El mar como reflejo de tu estado interior",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera hooks de primera linea para TikTok. Cada item debe tener: category, hook, angle, format. Deben abrir curiosidad sin clickbait agresivo.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 11,
+        "raw": {
+          "category": "playa",
+          "hook": "El mar como reflejo de tu estado interior",
+          "angle": "C\u00f3mo la playa puede ser tu espacio de introspecci\u00f3n",
+          "format": "TikTok con escena de reflexi\u00f3n junto al mar"
+        },
+        "prompt_type": "hook"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "hook",
+      "category": "cafeteria",
+      "platform": "TikTok",
+      "title": "C\u00f3mo un lugar puede satisfacer m\u00e1s que el est\u00f3mago",
+      "body": "Un caf\u00e9 que no solo satisface el hambre",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera hooks de primera linea para TikTok. Cada item debe tener: category, hook, angle, format. Deben abrir curiosidad sin clickbait agresivo.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 12,
+        "raw": {
+          "category": "cafeteria",
+          "hook": "Un caf\u00e9 que no solo satisface el hambre",
+          "angle": "C\u00f3mo un lugar puede satisfacer m\u00e1s que el est\u00f3mago",
+          "format": "TikTok con escena de toma de caf\u00e9 con detalles sensoriales"
+        },
+        "prompt_type": "hook"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "hook",
+      "category": "gym",
+      "platform": "TikTok",
+      "title": "C\u00f3mo el gimnasio puede ser parte de tu bienestar emocional",
+      "body": "Ejercicio que te hace sentir mejor sin esfuerzo",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera hooks de primera linea para TikTok. Cada item debe tener: category, hook, angle, format. Deben abrir curiosidad sin clickbait agresivo.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 13,
+        "raw": {
+          "category": "gym",
+          "hook": "Ejercicio que te hace sentir mejor sin esfuerzo",
+          "angle": "C\u00f3mo el gimnasio puede ser parte de tu bienestar emocional",
+          "format": "TikTok con escena de entrenamiento con enfoque emocional"
+        },
+        "prompt_type": "hook"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "hook",
+      "category": "viajes",
+      "platform": "TikTok",
+      "title": "C\u00f3mo descubrir lugares sin dejar tu casa",
+      "body": "Un viaje que no requiere maletas",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera hooks de primera linea para TikTok. Cada item debe tener: category, hook, angle, format. Deben abrir curiosidad sin clickbait agresivo.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 14,
+        "raw": {
+          "category": "viajes",
+          "hook": "Un viaje que no requiere maletas",
+          "angle": "C\u00f3mo descubrir lugares sin dejar tu casa",
+          "format": "TikTok con escena de viaje virtual en casa"
+        },
+        "prompt_type": "hook"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "hook",
+      "category": "lifestyle",
+      "platform": "TikTok",
+      "title": "C\u00f3mo crear tu propio estilo de vida sin imitar a otros",
+      "body": "La vida que quieres vivir, no la que te dicen que debes",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera hooks de primera linea para TikTok. Cada item debe tener: category, hook, angle, format. Deben abrir curiosidad sin clickbait agresivo.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 15,
+        "raw": {
+          "category": "lifestyle",
+          "hook": "La vida que quieres vivir, no la que te dicen que debes",
+          "angle": "C\u00f3mo crear tu propio estilo de vida sin imitar a otros",
+          "format": "TikTok con escena de elecci\u00f3n personal en estilo de vida"
+        },
+        "prompt_type": "hook"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "hook",
+      "category": "playa",
+      "platform": "TikTok",
+      "title": "C\u00f3mo la playa puede ser tu lugar de curaci\u00f3n",
+      "body": "El mar como una terapia natural",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera hooks de primera linea para TikTok. Cada item debe tener: category, hook, angle, format. Deben abrir curiosidad sin clickbait agresivo.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 16,
+        "raw": {
+          "category": "playa",
+          "hook": "El mar como una terapia natural",
+          "angle": "C\u00f3mo la playa puede ser tu lugar de curaci\u00f3n",
+          "format": "TikTok con escena de relajaci\u00f3n en la playa"
+        },
+        "prompt_type": "hook"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "hook",
+      "category": "cafeteria",
+      "platform": "TikTok",
+      "title": "C\u00f3mo un lugar puede ser tu fuente de energ\u00eda natural",
+      "body": "Un caf\u00e9 que te da energ\u00eda sin cafe\u00edna",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera hooks de primera linea para TikTok. Cada item debe tener: category, hook, angle, format. Deben abrir curiosidad sin clickbait agresivo.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 17,
+        "raw": {
+          "category": "cafeteria",
+          "hook": "Un caf\u00e9 que te da energ\u00eda sin cafe\u00edna",
+          "angle": "C\u00f3mo un lugar puede ser tu fuente de energ\u00eda natural",
+          "format": "TikTok con escena de toma de caf\u00e9 con energ\u00eda natural"
+        },
+        "prompt_type": "hook"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "hook",
+      "category": "gym",
+      "platform": "TikTok",
+      "title": "C\u00f3mo hacer ejercicio sin sentirte obligado",
+      "body": "Ejercicio que se adapta a tu ritmo",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera hooks de primera linea para TikTok. Cada item debe tener: category, hook, angle, format. Deben abrir curiosidad sin clickbait agresivo.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 18,
+        "raw": {
+          "category": "gym",
+          "hook": "Ejercicio que se adapta a tu ritmo",
+          "angle": "C\u00f3mo hacer ejercicio sin sentirte obligado",
+          "format": "TikTok con escena de entrenamiento flexible"
+        },
+        "prompt_type": "hook"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "hook",
+      "category": "viajes",
+      "platform": "TikTok",
+      "title": "C\u00f3mo disfrutar de viajes sin moverte de casa",
+      "body": "Un viaje que no requiere viajar",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera hooks de primera linea para TikTok. Cada item debe tener: category, hook, angle, format. Deben abrir curiosidad sin clickbait agresivo.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 19,
+        "raw": {
+          "category": "viajes",
+          "hook": "Un viaje que no requiere viajar",
+          "angle": "C\u00f3mo disfrutar de viajes sin moverte de casa",
+          "format": "TikTok con escena de viaje virtual"
+        },
+        "prompt_type": "hook"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "hook",
+      "category": "lifestyle",
+      "platform": "TikTok",
+      "title": "C\u00f3mo encontrar equilibrio entre ambas cosas",
+      "body": "Vivir con autenticidad y sin renunciar al lujo",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera hooks de primera linea para TikTok. Cada item debe tener: category, hook, angle, format. Deben abrir curiosidad sin clickbait agresivo.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 20,
+        "raw": {
+          "category": "lifestyle",
+          "hook": "Vivir con autenticidad y sin renunciar al lujo",
+          "angle": "C\u00f3mo encontrar equilibrio entre ambas cosas",
+          "format": "TikTok con escena de estilo de vida con toques de lujo"
+        },
+        "prompt_type": "hook"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "story",
+      "category": "playa",
+      "platform": "Instagram Stories",
+      "title": "Paseo al atardecer",
+      "body": "A veces la mejor manera de relajarse es caminar por la playa con el sol en la espalda. La brisa, el sonido de las olas y la sensaci\u00f3n de arena bajo los pies son una receta perfecta para el alma.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera historias cortas para stories. Cada item debe tener: title, category, story, frames, cta. Frames debe ser un arreglo de 3 textos breves.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 1,
+        "raw": {
+          "category": "playa",
+          "title": "Paseo al atardecer",
+          "story": "A veces la mejor manera de relajarse es caminar por la playa con el sol en la espalda. La brisa, el sonido de las olas y la sensaci\u00f3n de arena bajo los pies son una receta perfecta para el alma.",
+          "frames": [
+            "Camino hacia la orilla con la brisa fresca.",
+            "Miro al horizonte mientras el sol se pone.",
+            "Me siento en la arena con una toalla y un libro."
+          ],
+          "cta": "\u00bfTe gustar\u00eda disfrutar un atardecer como este?"
+        },
+        "prompt_type": "story"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "story",
+      "category": "cafeteria",
+      "platform": "Instagram Stories",
+      "title": "Caf\u00e9 en el jard\u00edn",
+      "body": "Las cafeter\u00edas son lugares donde el tiempo se detiene. Puedes disfrutar un caf\u00e9 hecho con amor mientras observas a la gente pasar y a las flores moverse con la brisa.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera historias cortas para stories. Cada item debe tener: title, category, story, frames, cta. Frames debe ser un arreglo de 3 textos breves.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 2,
+        "raw": {
+          "category": "cafeteria",
+          "title": "Caf\u00e9 en el jard\u00edn",
+          "story": "Las cafeter\u00edas son lugares donde el tiempo se detiene. Puedes disfrutar un caf\u00e9 hecho con amor mientras observas a la gente pasar y a las flores moverse con la brisa.",
+          "frames": [
+            "Paso por una cafeter\u00eda con jard\u00edn.",
+            "Pido un caf\u00e9 y me siento en una mesa.",
+            "Observo el entorno con una sonrisa."
+          ],
+          "cta": "\u00bfYa probaste un caf\u00e9 en un jard\u00edn?"
+        },
+        "prompt_type": "story"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "story",
+      "category": "gym",
+      "platform": "Instagram Stories",
+      "title": "Rutina de ejercicios",
+      "body": "El gimnasio no tiene que ser abrumador. Con una rutina sencilla y un ambiente amable, puedes lograr tus metas sin presi\u00f3n. La clave es disfrutar el proceso.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera historias cortas para stories. Cada item debe tener: title, category, story, frames, cta. Frames debe ser un arreglo de 3 textos breves.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 3,
+        "raw": {
+          "": "",
+          "title": "Rutina de ejercicios",
+          "story": "El gimnasio no tiene que ser abrumador. Con una rutina sencilla y un ambiente amable, puedes lograr tus metas sin presi\u00f3n. La clave es disfrutar el proceso.",
+          "frames": [
+            "Me levanto con energ\u00eda y preparo el equipamiento.",
+            "Hago estiramientos y ejercicios suaves.",
+            "Me siento orgullosa de mi progreso."
+          ],
+          "cta": "\u00bfQuieres una rutina que te motive?"
+        },
+        "prompt_type": "story"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "story",
+      "category": "viajes",
+      "platform": "Instagram Stories",
+      "title": "Viaje corto",
+      "body": "A veces lo mejor es un viaje corto que te aleje del ruido de la ciudad. Un destino cercano puede ser suficiente para recargar tu energ\u00eda y encontrar inspiraci\u00f3n.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera historias cortas para stories. Cada item debe tener: title, category, story, frames, cta. Frames debe ser un arreglo de 3 textos breves.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 4,
+        "raw": {
+          "category": "viajes",
+          "title": "Viaje corto",
+          "story": "A veces lo mejor es un viaje corto que te aleje del ruido de la ciudad. Un destino cercano puede ser suficiente para recargar tu energ\u00eda y encontrar inspiraci\u00f3n.",
+          "frames": [
+            "Preparo mi maleta con solo lo esencial.",
+            "Llego a un destino tranquilo y me siento en un balc\u00f3n.",
+            "Disfruto el paisaje sin prisas."
+          ],
+          "cta": "\u00bfTienes un destino en mente?"
+        },
+        "prompt_type": "story"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "story",
+      "category": "lifestyle",
+      "platform": "Instagram Stories",
+      "title": "Rutina diaria",
+      "body": "La vida no es sobre ser perfecto, sino sobre encontrar equilibrio. Una rutina sencilla puede ayudarte a sentirte m\u00e1s presente y enfocado en lo que realmente importa.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera historias cortas para stories. Cada item debe tener: title, category, story, frames, cta. Frames debe ser un arreglo de 3 textos breves.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 5,
+        "raw": {
+          "category": "lifestyle",
+          "title": "Rutina diaria",
+          "story": "La vida no es sobre ser perfecto, sino sobre encontrar equilibrio. Una rutina sencilla puede ayudarte a sentirte m\u00e1s presente y enfocado en lo que realmente importa.",
+          "frames": [
+            "Despierto con una luz suave y una taza de caf\u00e9.",
+            "Hago una lista de lo que quiero lograr.",
+            "Me siento satisfecha con lo que hago."
+          ],
+          "cta": "\u00bfQu\u00e9 te gustar\u00eda mejorar en tu rutina?"
+        },
+        "prompt_type": "story"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "story",
+      "category": "playa",
+      "platform": "Instagram Stories",
+      "title": "Meditaci\u00f3n en la playa",
+      "body": "La playa es un lugar ideal para la meditaci\u00f3n. La combinaci\u00f3n de la brisa, el sonido de las olas y la vista del mar te ayudan a conectar con tu interior.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera historias cortas para stories. Cada item debe tener: title, category, story, frames, cta. Frames debe ser un arreglo de 3 textos breves.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 6,
+        "raw": {
+          "category": "playa",
+          "title": "Meditaci\u00f3n en la playa",
+          "story": "La playa es un lugar ideal para la meditaci\u00f3n. La combinaci\u00f3n de la brisa, el sonido de las olas y la vista del mar te ayudan a conectar con tu interior.",
+          "frames": [
+            "Me siento en la arena con la brisa fresca.",
+            "Cierro los ojos y respiro profundamente.",
+            "Me siento m\u00e1s tranquila y presente."
+          ],
+          "cta": "\u00bfQuieres meditar en la playa?"
+        },
+        "prompt_type": "story"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "story",
+      "category": "cafeteria",
+      "platform": "Instagram Stories",
+      "title": "Postre de la tarde",
+      "body": "El postre es la mejor manera de terminar el d\u00eda con sabor. En una cafeter\u00eda con ambiente c\u00e1lido, puedes disfrutar un dulce hecho con amor y una taza de caf\u00e9.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera historias cortas para stories. Cada item debe tener: title, category, story, frames, cta. Frames debe ser un arreglo de 3 textos breves.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 7,
+        "raw": {
+          "category": "cafeteria",
+          "title": "Postre de la tarde",
+          "story": "El postre es la mejor manera de terminar el d\u00eda con sabor. En una cafeter\u00eda con ambiente c\u00e1lido, puedes disfrutar un dulce hecho con amor y una taza de caf\u00e9.",
+          "frames": [
+            "Paso por una cafeter\u00eda con un postre delicioso.",
+            "Pido un postre y me siento en una mesa.",
+            "Disfruto el momento con una sonrisa."
+          ],
+          "cta": "\u00bfQu\u00e9 postre te gustar\u00eda probar?"
+        },
+        "prompt_type": "story"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "story",
+      "category": "gym",
+      "platform": "Instagram Stories",
+      "title": "Ejercicios en casa",
+      "body": "No siempre tienes que ir al gimnasio. Con una rutina sencilla en casa, puedes mantener tu cuerpo activo y sentirte bien. La clave es la constancia.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera historias cortas para stories. Cada item debe tener: title, category, story, frames, cta. Frames debe ser un arreglo de 3 textos breves.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 8,
+        "raw": {
+          "category": "gym",
+          "title": "Ejercicios en casa",
+          "story": "No siempre tienes que ir al gimnasio. Con una rutina sencilla en casa, puedes mantener tu cuerpo activo y sentirte bien. La clave es la constancia.",
+          "frames": [
+            "Me levanto y preparo el espacio para ejercitar.",
+            "Hago estiramientos y ejercicios simples.",
+            "Me siento orgullosa de lo que hago."
+          ],
+          "cta": "\u00bfQuieres una rutina en casa?"
+        },
+        "prompt_type": "story"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "story",
+      "category": "viajes",
+      "platform": "Instagram Stories",
+      "title": "Destino cercano",
+      "body": "Un viaje no tiene que ser muy largo para ser memorable. Un destino cercano puede ser suficiente para disfrutar de un momento de tranquilidad y conexi\u00f3n.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera historias cortas para stories. Cada item debe tener: title, category, story, frames, cta. Frames debe ser un arreglo de 3 textos breves.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 9,
+        "raw": {
+          "category": "viajes",
+          "title": "Destino cercano",
+          "story": "Un viaje no tiene que ser muy largo para ser memorable. Un destino cercano puede ser suficiente para disfrutar de un momento de tranquilidad y conexi\u00f3n.",
+          "frames": [
+            "Preparo mi maleta con lo esencial.",
+            "Llego a un lugar tranquilo y me siento en un balc\u00f3n.",
+            "Disfruto la vista sin prisas."
+          ],
+          "cta": "\u00bfYa tienes un destino en mente?"
+        },
+        "prompt_type": "story"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "story",
+      "category": "lifestyle",
+      "platform": "Instagram Stories",
+      "title": "Autocuidado simple",
+      "body": "El autocuidado no tiene que ser complicado. Una rutina sencilla puede ayudarte a sentirte m\u00e1s presente, tranquilo y feliz. La clave es disfrutar el proceso.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera historias cortas para stories. Cada item debe tener: title, category, story, frames, cta. Frames debe ser un arreglo de 3 textos breves.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 10,
+        "raw": {
+          "category": "lifestyle",
+          "title": "Autocuidado simple",
+          "story": "El autocuidado no tiene que ser complicado. Una rutina sencilla puede ayudarte a sentirte m\u00e1s presente, tranquilo y feliz. La clave es disfrutar el proceso.",
+          "frames": [
+            "Me levanto con una luz suave y una taza de caf\u00e9.",
+            "Hago una lista de lo que quiero lograr.",
+            "Me siento satisfecha con lo que hago."
+          ],
+          "cta": "\u00bfQu\u00e9 te gustar\u00eda mejorar en tu rutina?"
+        },
+        "prompt_type": "story"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "story",
+      "category": "playa",
+      "platform": "Instagram Stories",
+      "title": "Caminata al amanecer",
+      "body": "Caminar al amanecer es una forma perfecta de comenzar el d\u00eda. La brisa fresca, el sonido de las olas y la vista del sol naciente son una receta para el alma.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera historias cortas para stories. Cada item debe tener: title, category, story, frames, cta. Frames debe ser un arreglo de 3 textos breves.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 11,
+        "raw": {
+          "category": "playa",
+          "title": "Caminata al amanecer",
+          "story": "Caminar al amanecer es una forma perfecta de comenzar el d\u00eda. La brisa fresca, el sonido de las olas y la vista del sol naciente son una receta para el alma.",
+          "frames": [
+            "Me levanto antes del amanecer.",
+            "Camino por la playa con la brisa fresca.",
+            "Disfruto la vista del sol naciente."
+          ],
+          "cta": "\u00bfTe gustar\u00eda comenzar el d\u00eda as\u00ed?"
+        },
+        "prompt_type": "story"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "story",
+      "category": "cafeteria",
+      "platform": "Instagram Stories",
+      "title": "Caf\u00e9 en el jard\u00edn",
+      "body": "Las cafeter\u00edas son lugares donde el tiempo se detiene. Puedes disfrutar un caf\u00e9 hecho con amor mientras observas a la gente pasar y a las flores moverse con la brisa.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera historias cortas para stories. Cada item debe tener: title, category, story, frames, cta. Frames debe ser un arreglo de 3 textos breves.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 12,
+        "raw": {
+          "category": "cafeteria",
+          "title": "Caf\u00e9 en el jard\u00edn",
+          "story": "Las cafeter\u00edas son lugares donde el tiempo se detiene. Puedes disfrutar un caf\u00e9 hecho con amor mientras observas a la gente pasar y a las flores moverse con la brisa.",
+          "frames": [
+            "Paso por una cafeter\u00eda con jard\u00edn.",
+            "Pido un caf\u00e9 y me siento en una mesa.",
+            "Observo el entorno con una sonrisa."
+          ],
+          "cta": "\u00bfYa probaste un caf\u00e9 en un jard\u00edn?"
+        },
+        "prompt_type": "story"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "story",
+      "category": "gym",
+      "platform": "Instagram Stories",
+      "title": "Rutina de ejercicios",
+      "body": "El gimnasio no tiene que ser abrumador. Con una rutina sencilla y un ambiente amable, puedes lograr tus metas sin presi\u00f3n. La clave es disfrutar el proceso.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera historias cortas para stories. Cada item debe tener: title, category, story, frames, cta. Frames debe ser un arreglo de 3 textos breves.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 13,
+        "raw": {
+          "category": "gym",
+          "title": "Rutina de ejercicios",
+          "story": "El gimnasio no tiene que ser abrumador. Con una rutina sencilla y un ambiente amable, puedes lograr tus metas sin presi\u00f3n. La clave es disfrutar el proceso.",
+          "frames": [
+            "Me levanto con energ\u00eda y preparo el equipamiento.",
+            "Hago estiramientos y ejercicios suaves.",
+            "Me siento orgullosa de mi progreso."
+          ],
+          "cta": "\u00bfQuieres una rutina que te motive?"
+        },
+        "prompt_type": "story"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "story",
+      "category": "viajes",
+      "platform": "Instagram Stories",
+      "title": "Destino tranquilo",
+      "body": "A veces lo mejor es un viaje que te aleje del ruido de la ciudad. Un destino tranquilo puede ser suficiente para recargar tu energ\u00eda y encontrar inspiraci\u00f3n.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera historias cortas para stories. Cada item debe tener: title, category, story, frames, cta. Frames debe ser un arreglo de 3 textos breves.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 14,
+        "raw": {
+          "category": "viajes",
+          "title": "Destino tranquilo",
+          "story": "A veces lo mejor es un viaje que te aleje del ruido de la ciudad. Un destino tranquilo puede ser suficiente para recargar tu energ\u00eda y encontrar inspiraci\u00f3n.",
+          "frames": [
+            "Preparo mi maleta con solo lo esencial.",
+            "Llego a un destino tranquilo y me siento en un balc\u00f3n.",
+            "Disfruto el paisaje sin prisas."
+          ],
+          "cta": "\u00bfTienes un destino en mente?"
+        },
+        "prompt_type": "story"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "story",
+      "category": "lifestyle",
+      "platform": "Instagram Stories",
+      "title": "Rutina diaria",
+      "body": "La vida no es sobre ser perfecto, sino sobre encontrar equilibrio. Una rutina sencilla puede ayudarte a sentirte m\u00e1s presente y enfocado en lo que realmente importa.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera historias cortas para stories. Cada item debe tener: title, category, story, frames, cta. Frames debe ser un arreglo de 3 textos breves.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 15,
+        "raw": {
+          "category": "lifestyle",
+          "title": "Rutina diaria",
+          "story": "La vida no es sobre ser perfecto, sino sobre encontrar equilibrio. Una rutina sencilla puede ayudarte a sentirte m\u00e1s presente y enfocado en lo que realmente importa.",
+          "frames": [
+            "Despierto con una luz suave y una taza de caf\u00e9.",
+            "Hago una lista de lo que quiero lograr.",
+            "Me siento satisfecha con lo que hago."
+          ],
+          "cta": "\u00bfQu\u00e9 te gustar\u00eda mejorar en tu rutina?"
+        },
+        "prompt_type": "story"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "story",
+      "category": "playa",
+      "platform": "Instagram Stories",
+      "title": "Meditaci\u00f3n en la playa",
+      "body": "La playa es un lugar ideal para la meditaci\u00f3n. La combinaci\u00f3n de la brisa, el sonido de las olas y la vista del mar te ayudan a conectar con tu interior.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera historias cortas para stories. Cada item debe tener: title, category, story, frames, cta. Frames debe ser un arreglo de 3 textos breves.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 16,
+        "raw": {
+          "category": "playa",
+          "title": "Meditaci\u00f3n en la playa",
+          "story": "La playa es un lugar ideal para la meditaci\u00f3n. La combinaci\u00f3n de la brisa, el sonido de las olas y la vista del mar te ayudan a conectar con tu interior.",
+          "frames": [
+            "Me siento en la arena con la brisa fresca.",
+            "Cierro los ojos y respiro profundamente.",
+            "Me siento m\u00e1s tranquila y presente."
+          ],
+          "cta": "\u00bfQuieres meditar en la playa?"
+        },
+        "prompt_type": "story"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "story",
+      "category": "cafeteria",
+      "platform": "Instagram Stories",
+      "title": "Postre de la tarde",
+      "body": "El postre es la mejor manera de terminar el d\u00eda con sabor. En una cafeter\u00eda con ambiente c\u00e1lido, puedes disfrutar un dulce hecho con amor y una taza de caf\u00e9.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera historias cortas para stories. Cada item debe tener: title, category, story, frames, cta. Frames debe ser un arreglo de 3 textos breves.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 17,
+        "raw": {
+          "category": "cafeteria",
+          "title": "Postre de la tarde",
+          "story": "El postre es la mejor manera de terminar el d\u00eda con sabor. En una cafeter\u00eda con ambiente c\u00e1lido, puedes disfrutar un dulce hecho con amor y una taza de caf\u00e9.",
+          "frames": [
+            "Paso por una cafeter\u00eda con un postre delicioso.",
+            "Pido un postre y me siento en una mesa.",
+            "Disfruto el momento con una sonrisa."
+          ],
+          "cta": "\u00bfQu\u00e9 postre te gustar\u00eda probar?"
+        },
+        "prompt_type": "story"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "story",
+      "category": "gym",
+      "platform": "Instagram Stories",
+      "title": "Ejercicios en casa",
+      "body": "No siempre tienes que ir al gimnasio. Con una rutina sencilla en casa, puedes mantener tu cuerpo activo y sentirte bien. La clave es la constancia.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera historias cortas para stories. Cada item debe tener: title, category, story, frames, cta. Frames debe ser un arreglo de 3 textos breves.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 18,
+        "raw": {
+          "category": "gym",
+          "title": "Ejercicios en casa",
+          "story": "No siempre tienes que ir al gimnasio. Con una rutina sencilla en casa, puedes mantener tu cuerpo activo y sentirte bien. La clave es la constancia.",
+          "frames": [
+            "Me levanto y preparo el espacio para ejercitar.",
+            "Hago estiramientos y ejercicios simples.",
+            "Me siento orgullosa de lo que hago."
+          ],
+          "cta": "\u00bfQuieres una rutina en casa?"
+        },
+        "prompt_type": "story"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "story",
+      "category": "viajes",
+      "platform": "Instagram Stories",
+      "title": "Destino cercano",
+      "body": "Un viaje no tiene que ser muy largo para ser memorable. Un destino cercano puede ser suficiente para disfrutar de un momento de tranquilidad y conexi\u00f3n.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera historias cortas para stories. Cada item debe tener: title, category, story, frames, cta. Frames debe ser un arreglo de 3 textos breves.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 19,
+        "raw": {
+          "category": "viajes",
+          "title": "Destino cercano",
+          "story": "Un viaje no tiene que ser muy largo para ser memorable. Un destino cercano puede ser suficiente para disfrutar de un momento de tranquilidad y conexi\u00f3n.",
+          "frames": [
+            "Preparo mi maleta con lo esencial.",
+            "Llego a un lugar tranquilo y me siento en un balc\u00f3n.",
+            "Disfruto la vista sin prisas."
+          ],
+          "cta": "\u00bfYa tienes un destino en mente?"
+        },
+        "prompt_type": "story"
+      },
+      "status": "draft"
+    },
+    {
+      "run_id": "67db7070-542e-4373-a65e-dba7fba128fd",
+      "character_slug": "valentina-sol",
+      "content_type": "story",
+      "category": "lifestyle",
+      "platform": "Instagram Stories",
+      "title": "Autocuidado simple",
+      "body": "El autocuidado no tiene que ser complicado. Una rutina sencilla puede ayudarte a sentirte m\u00e1s presente, tranquilo y feliz. La clave es disfrutar el proceso.",
+      "source_model": "qwen3:8b",
+      "prompt": "Devuelve exclusivamente JSON valido con esta forma:\n{\n  \"items\": [\n    {\n      \"category\": \"playa|cafeteria|gym|viajes|lifestyle\"\n    }\n  ]\n}\n\nCantidad exacta: 20 items.\nPersonaje: Valentina Sol.\nCategorias permitidas: playa, cafeteria, gym, viajes, lifestyle.\nInstruccion: Genera historias cortas para stories. Cada item debe tener: title, category, story, frames, cta. Frames debe ser un arreglo de 3 textos breves.\n\nReglas:\n- No uses emojis.\n- No menciones que eres IA salvo que sea parte natural del concepto.\n- No uses marcas registradas.\n- No uses texto sexual, medico o financiero.\n- Escribe en espanol latino neutro.\n- El contenido debe poder usarse por una influencer virtual de lifestyle.\n- Devuelve solo JSON. No expliques nada.",
+      "metadata": {
+        "ordinal": 20,
+        "raw": {
+          "category": "lifestyle",
+          "title": "Autocuidado simple",
+          "story": "El autocuidado no tiene que ser complicado. Una rutina sencilla puede ayudarte a sentirte m\u00e1s presente, tranquilo y feliz. La clave es disfrutar el proceso.",
+          "frames": [
+            "Me levanto con una luz suave y una taza de caf\u00e9.",
+            "Hago una lista de lo que quiero lograr.",
+            "Me siento satisfecha con lo que hago."
+          ],
+          "cta": "\u00bfQu\u00e9 te gustar\u00eda mejorar en tu rutina?"
+        },
+        "prompt_type": "story"
+      },
+      "status": "draft"
+    }
+  ]
+}
